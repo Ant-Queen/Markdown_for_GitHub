@@ -13,10 +13,6 @@ versions:
 shortTitle: Basic formatting syntax
 ---
 
-## Relative links
-
-{% data reusables.repositories.relative-links %}
-
 ## Custom anchors
 
 You can use standard HTML anchor tags (`<a name="unique-anchor-name"></a>`) to create navigation anchor points for any location in the document. To avoid ambiguous references, use a unique naming scheme for anchor tags, such as adding a prefix to the `name` attribute value.
