@@ -13,32 +13,8 @@ versions:
 shortTitle: Basic formatting syntax
 ---
 
-## Mentioning people and teams
 
-You can mention a person or [team](/organizations/organizing-members-into-teams) on {% data variables.product.github %} by typing <kbd>@</kbd> plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see [AUTOTITLE](/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications).
 
-> [!NOTE]
-> A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
-
-`@github/support What do you think about these updates?`
-
-![Screenshot of rendered GitHub Markdown showing how the team mention "@github/support" renders as bold, clickable text.](/assets/images/help/writing/mention-rendered.png)
-
-When you mention a parent team, members of its child teams also receive notifications, simplifying communication with multiple groups of people. For more information, see [AUTOTITLE](/organizations/organizing-members-into-teams/about-teams).
-
-Typing an <kbd>@</kbd> symbol will bring up a list of people or teams on a project. The list filters as you type, so once you find the name of the person or team you are looking for, you can use the arrow keys to select it and press either tab or enter to complete the name. For teams, enter the @organization/team-name and all members of that team will get subscribed to the conversation.
-
-The autocomplete results are restricted to repository collaborators and any other participants on the thread.
-
-## Referencing issues and pull requests
-
-You can bring up a list of suggested issues and pull requests within the repository by typing <kbd>#</kbd>. Type the issue or pull request number or title to filter the list, and then press either tab or enter to complete the highlighted result.
-
-For more information, see [AUTOTITLE](/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls).
-
-## Referencing external resources
-
-{% data reusables.repositories.autolink-references %}
 
 ## Uploading assets
 
