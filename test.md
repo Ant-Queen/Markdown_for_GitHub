@@ -13,38 +13,6 @@ versions:
 shortTitle: Basic formatting syntax
 ---
 
-## Images
-
-You can display an image by adding <kbd>!</kbd> and wrapping the alt text in `[ ]`. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses `()`.
-
-`![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)`
-
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](/assets/images/help/writing/image-rendered.png)
-
-{% data variables.product.github %} supports embedding images into your issues, pull requests{% ifversion fpt or ghec %}, discussions{% endif %}, comments and `.md` files. You can display an image from your repository, add a link to an online image, or upload an image. For more information, see [Uploading assets](#uploading-assets).
-
-> [!NOTE]
-> When you want to display an image that is in your repository, use relative links instead of absolute links.
-
-Here are some examples for using relative links to display an image.
-
-| Context | Relative Link |
-| ------ | -------- |
-| In a `.md` file on the same branch | `/assets/images/electrocat.png` |
-| In a `.md` file on another branch | `/../main/assets/images/electrocat.png` |
-| In issues, pull requests and comments of the repository | `../blob/main/assets/images/electrocat.png?raw=true` |
-| In a `.md` file in another repository | `/../../../../github/docs/blob/main/assets/images/electrocat.png` |
-| In issues, pull requests and comments of another repository | `../../../github/docs/blob/main/assets/images/electrocat.png?raw=true` |
-
-> [!NOTE]
-> The last two relative links in the table above will work for images in a private repository only if the viewer has at least read access to the private repository that contains these images.
-
-For more information, see [Relative Links](#relative-links).
-
-### The Picture element
-
-The `<picture>` HTML element is supported.
-
 ## Lists
 
 You can make an unordered list by preceding one or more lines of text with <kbd>-</kbd>, <kbd>*</kbd>, or <kbd>+</kbd>.
