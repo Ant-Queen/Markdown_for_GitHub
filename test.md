@@ -13,14 +13,6 @@ versions:
 shortTitle: Basic formatting syntax
 ---
 
-## Hiding content with comments
-
-You can tell {% data variables.product.github %} to hide content from the rendered Markdown by placing the content in an HTML comment.
-
-```text
-<!-- This content will not appear in the rendered Markdown -->
-```
-
 ## Ignoring Markdown formatting
 
 You can tell {% data variables.product.github %} to ignore (or escape) Markdown formatting by using <kbd>\\</kbd> before the Markdown character.
