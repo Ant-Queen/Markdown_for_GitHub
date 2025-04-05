@@ -13,19 +13,6 @@ versions:
 shortTitle: Basic formatting syntax
 ---
 
-## Ignoring Markdown formatting
-
-You can tell {% data variables.product.github %} to ignore (or escape) Markdown formatting by using <kbd>\\</kbd> before the Markdown character.
-
-`Let's rename \*our-new-project\* to \*our-old-project\*.`
-
-![Screenshot of rendered GitHub Markdown showing how backslashes prevent the conversion of asterisks to italics.](/assets/images/help/writing/escaped-character-rendered.png)
-
-For more information on backslashes, see Daring Fireball's [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax#backslash).
-
-> [!NOTE]
-> The Markdown formatting will not be ignored in the title of an issue or a pull request.
-
 ## Disabling Markdown rendering
 
 {% data reusables.repositories.disabling-markdown-rendering %}
