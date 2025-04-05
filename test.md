@@ -13,10 +13,6 @@ versions:
 shortTitle: Basic formatting syntax
 ---
 
-## Disabling Markdown rendering
-
-{% data reusables.repositories.disabling-markdown-rendering %}
-
 ## Further reading
 
 * [{% data variables.product.prodname_dotcom %} Flavored Markdown Spec](https://github.github.com/gfm/)
