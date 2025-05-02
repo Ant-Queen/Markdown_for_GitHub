@@ -65,8 +65,6 @@ text
 ## [섹션 링크 (Section links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/07.%20%EC%84%B9%EC%85%98%20%EB%A7%81%ED%81%AC%20(Section%20links).md)
 
 ```markdown
-[텍스트 스타일 지정으로 이동](#텍스트-스타일-지정-styling-text)
+[섹션 링크로 이동](#섹션-링크-section-links)
 ```
-[텍스트 스타일 지정으로 이동](#텍스트-스타일-지정-styling-text)
-
-[텍스트 스타일 지정으로 이동](#섹션-링크-Section-links)
+[섹션 링크로 이동](#섹션-링크-section-links)
