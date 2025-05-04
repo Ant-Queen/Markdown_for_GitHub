@@ -98,15 +98,56 @@ b
 [A link to that custom anchor](#my-custom-anchor-point)
 ```
 
-a<br/>
+a  
 <a id="my-custom-anchor-point"></a>
 b
 
 [A link to that custom anchor](#my-custom-anchor-point)
 
-> > 빛이 있으라.
->
+> > 빛이 있으라.  
 > 하니 빛이 있었다.
 >> ss  
 >
 > ddd
+
+ddsfsdf
+&nbsp;  
+&nbsp;sasdad  
+ sssss
+ sss
+  ssss
+  ssss
+  sss
+    ss
+    sss
+    s
+sssss
+ss
+s
+ss
+s
+s  
+&nbsp;sssss  
+ sss
+
+
+
+
+
+
+
+
+
+## 공백문자
+A&nbsp;A A A​A
+
+| Unicode | 16진수 코드 | 복사하여 사용 | 비고 |
+|---|---|---|---|
+| 2000 | `&#x2000;` | " " | 1/2 폭. OS, 브라우저 간 미세한 차이 있음 |
+| 2001 | `&#x2001;` | " " | 전각 너비. `가장 사용이 권장되는 공백` |
+| 2002 | `&#x2002;` | " " | 1/2 폭. OS, 브라우저 간 미세한 차이 있음 |
+| 2003 | `&#x2003;` | " " | 전각 너비. `가장 사용이 권장되는 공백` |
+| 2004 | `&#x2004;` | " " | 1/3 폭. `가장 사용이 권장되는 공백` |
+| 2005 | `&#x2005;` | " " | 1/4 폭. OS, 브라우저 간 미세한 차이 있음 |
+| 2006 | `&#x2006;` | " " | 1/6 폭. OS, 브라우저 간 미세한 차이 있음 |
+| 200B | `&#x200B;` | "​" | ZERO WIDTH SPACE |
