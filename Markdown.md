@@ -105,6 +105,49 @@ b
 
 [A link to that custom anchor](#my-custom-anchor-point)
 
+## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md)
+
+* 첫 번째 줄 끝에 공백 두 개를 포함합니다.
+  <pre>
+  This example&nbsp;&nbsp; <!-- "  " 실제로는 스페이스바(공백)를 2번 입력 -->
+  Will span two lines
+  </pre>
+
+  This example  
+  Will span two lines
+
+* 첫 번째 줄 끝에 백슬래시를 포함합니다.
+
+  ```markdown
+  This example\
+  Will span two lines
+  ```
+
+  This example\
+  Will span two lines
+
+* 첫 번째 줄 끝에 HTML 단일 줄 바꿈 태그를 포함합니다.
+
+  ```markdown
+  This example<br/>
+  Will span two lines
+  ```
+
+  This example<br/>
+  Will span two lines
+
+두 줄 사이에 빈 줄을 넣으면 .md 파일과 문제, 끌어오기 요청, 토론에서 사용되는 Markdown이 모두 빈 줄로 구분되어 두 줄로 렌더링합니다.
+
+```markdown
+This example
+
+Will have a blank line separating both lines
+```
+
+This example
+
+Will have a blank line separating both lines
+
 ## [공백 문자](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md)
 
 | Unicode | 16진수 코드 | 복사하여 사용 | 비고 |
@@ -119,3 +162,4 @@ b
 | 200B | `&#x200B;` | 가나 | ZERO WIDTH SPACE |
 | 공백문자 | `&nbsp;` | 가&nbsp;나 | 1/3.66 폭? (1/3 호환 가능성 높음) |
 | 스페이스바 | ` ` | 가 나 | 1/3.66 폭? (1/3 호환 가능성 높음) |
+
