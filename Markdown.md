@@ -67,6 +67,8 @@ text
 
 ## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md)
 
+`[]()`
+
 ```markdown
 [GitHub](https://github.com/)
 ```
@@ -109,7 +111,7 @@ b
 
 * 첫 번째 줄 끝에 공백 두 개를 포함합니다.
   <pre>
-  This example&nbsp;&nbsp; <!-- "  " 실제로는 스페이스바(공백)를 2번 입력 -->
+  This example&nbsp;&nbsp;<!-- "  " 실제로는 스페이스바(공백)를 2번 입력 -->
   Will span two lines
   </pre>
 
@@ -163,3 +165,36 @@ Will have a blank line separating both lines
 | 공백문자 | `&nbsp;` | 가&nbsp;나 | 1/3.66 폭? (1/3 호환 가능성 높음) |
 | 스페이스바 | ` ` | 가 나 | 1/3.66 폭? (1/3 호환 가능성 높음) |
 
+## [이미지](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/11.%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20(Images).md)
+
+`![]()`
+
+```markdown
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)`  
+```
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+| 컨텍스트 | 상대 링크 |
+| ------ | -------- |
+| 동일한 분기의 `.md` 파일에서 | `/assets/images/_fixtures/electrocat.png` |
+| 다른 분기의 `.md`파일에서 | `/../main/assets/images/_fixtures/electrocat.png` |
+| 리포지토리의 이슈, 끌어오기 요청, 주석에서 | `../blob/main/assets/images/_fixtures/electrocat.png?raw=true` |
+| 다른 리포지토리의 `.md` 파일에서 | `/../../../../github/docs/blob/main/assets/images/_fixtures/electrocat.png` |
+| 다른 리포지토리의 이슈, 끌어오기 요청, 주석에서 | `../../../github/docs/blob/main/assets/images/_fixtures/electrocat.png?raw=true` |
+
+![test1](/assets/images/_fixtures/electrocat.png)
+![test2](/../main/assets/images/_fixtures/electrocat.png)
+![test3](../blob/main/assets/images/_fixtures/electrocat.png?raw=true)
+![test4](/../../../../github/docs/blob/main/assets/images/_fixtures/electrocat.png)
+![test5](../../../github/docs/blob/main/assets/images/_fixtures/electrocat.png?raw=true)
+
+### Picture 요소 (The Picture element)
+
+`<picture>` HTML 요소가 지원됩니다.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
