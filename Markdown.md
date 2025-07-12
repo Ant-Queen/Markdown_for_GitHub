@@ -171,7 +171,7 @@ Will have a blank line separating both lines
 | 2001 | `&#x2001;` | 가 나 | 전각 너비. `가장 사용이 권장되는 공백` |
 | 2002 | `&#x2002;` | 가 나 | 1/2 폭. OS, 브라우저 간 미세한 차이 있음 |
 | 2003 | `&#x2003;` | 가 나 | 전각 너비. `가장 사용이 권장되는 공백` |
-| 2004 | `&#x2004;` | 가 나 | 1/3 폭. `가장 사용이 권장되는 공백` |
+| **2004** | `&#x2004;` | 가 나 | 1/3 폭. `가장 사용이 권장되는 공백` |
 | 2005 | `&#x2005;` | 가 나 | 1/4 폭. OS, 브라우저 간 미세한 차이 있음 |
 | 2006 | `&#x2006;` | 가 나 | 1/6 폭. OS, 브라우저 간 미세한 차이 있음 |
 | 200B | `&#x200B;` | 가나 | ZERO WIDTH SPACE |
@@ -309,3 +309,52 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
 
 </details>
 
+## [작업 목록 (Task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/13.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20(Task%20lists).md)
+
+`- [ ] `
+
+- [x] sss
+- [ ] 
+- [ ] 
+
+```markdown
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+<details open>
+
+작업 목록을 만들려면 하이픈`-`과 공백` ` 뒤에 `[ ]`이 오는 목록 항목의 접두사를 설정합니다. 작업을 완료로 표시하려면 `[x]`를 사용합니다.
+
+> [!NOTE]  
+> for GitHub  
+> `- [ ]` 뒤에 공백 ` `을 추가하면 체크박스로 표현됩니다.
+
+```markdown
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+작업 목록 항목 설명이 괄호로 시작하는 경우 `\`로 이스케이프해야 합니다.  
+(공백을 넣는경우 `\`로 이스케이프하지 않아도 됩니다.)
+
+```markdown
+- [x](Optional) Open a followup issue
+- [x]\(Optional) Open a followup issue
+- [x] (Optional) Open a followup issue
+- [x] \(Optional) Open a followup issue
+```
+
+- [x](Optional) Open a followup issue
+- [x]\(Optional) Open a followup issue
+- [x] (Optional) Open a followup issue
+- [x] \(Optional) Open a followup issue
+
+자세한 내용은 [작업 목록 정보](/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)을(를) 참조하세요.
+
+</details>
