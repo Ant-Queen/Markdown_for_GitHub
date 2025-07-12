@@ -315,7 +315,7 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
 
 - [x] sss
 - [ ]​ddfs
-- [ ] 
+- [ ] sssss
 - [ ] sss
 - [ ] 
  s s가&#x200B;나가​나가​나
