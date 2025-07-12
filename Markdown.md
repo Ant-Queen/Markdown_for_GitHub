@@ -1,4 +1,5 @@
-# Markdown
+# [Markdown](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
+
 
 ## [제목 (Headings)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/01.%20%EC%A0%9C%EB%AA%A9%20(headings).md)
 
@@ -187,6 +188,8 @@ Will have a blank line separating both lines
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)`  
 ```
 
+<details>
+
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
 | 컨텍스트 | 상대 링크 |
@@ -213,7 +216,27 @@ Will have a blank line separating both lines
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
+</details>
+
 ## [목록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/12.%20%EB%AA%A9%EB%A1%9D%20(Lists).md)
+
+```markdown
+1. First list item
+  - First nested list item
+    - Second nested list item
+2. Second list item
+  - First nested list item
+    - Second nested list item
+```
+
+<details>
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+2. Second list item
+   - First nested list item
+     - Second nested list item
 
 하나 이상의 텍스트 행 앞에 <kbd>-</kbd>, <kbd>*</kbd> 또는 <kbd>+</kbd>을(를) 입력하여 순서가 지정되지 않은 목록을 만들 수 있습니다.
 
@@ -283,3 +306,6 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
        - Second nested list item
 
 더 많은 예제는 [GitHub Flavored Markdown 사양](https://github.github.com/gfm/#example-265)을 참조하세요.
+
+</details>
+
