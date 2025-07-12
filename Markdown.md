@@ -322,7 +322,7 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 ```
-<details open>
+<details>
 
 작업 목록을 만들려면 하이픈`-`과 공백` ` 뒤에 `[ ]`이 오는 목록 항목의 접두사를 설정합니다. 작업을 완료로 표시하려면 `[x]`를 사용합니다.
 
