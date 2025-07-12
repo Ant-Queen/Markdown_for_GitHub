@@ -317,15 +317,9 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
 - [ ] 
 ```
 
-- [x] sss
-- [ ]​ddfs
-- [ ] sssss
-- [ ] sss
-- [ ] dddd
- s s가&#x200B;나가​나가​나
 ```markdown
 - [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [o] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 ```
 <details open>
@@ -343,7 +337,7 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
 ```
 
 - [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [o] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
 작업 목록 항목 설명이 괄호로 시작하는 경우 `\`로 이스케이프해야 합니다.  
