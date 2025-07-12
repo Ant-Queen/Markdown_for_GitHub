@@ -174,7 +174,7 @@ Will have a blank line separating both lines
 | **2004** | `&#x2004;` | 가 나 | 1/3 폭. `가장 사용이 권장되는 공백` |
 | 2005 | `&#x2005;` | 가 나 | 1/4 폭. OS, 브라우저 간 미세한 차이 있음 |
 | 2006 | `&#x2006;` | 가 나 | 1/6 폭. OS, 브라우저 간 미세한 차이 있음 |
-| 200B | `&#x200B;` | 가나 | ZERO WIDTH SPACE |
+| 200B | `&#x200B;` | 가​나 | ZERO WIDTH SPACE |
 | 공백문자 | `&nbsp;` | 가&nbsp;나 | 1/3.66 폭? (1/3 호환 가능성 높음) |
 | 스페이스바 | ` ` | 가 나 | 1/3.66 폭? (1/3 호환 가능성 높음) |
 
@@ -314,9 +314,11 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
 `- [ ] `
 
 - [x] sss
+- [ ]​ddfs
 - [ ] 
-- [ ] 
-
+- [ ] sss
+- [ ] 
+ s s가&#x200B;나가​나가​나
 ```markdown
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
