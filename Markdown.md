@@ -163,6 +163,9 @@ Will have a blank line separating both lines
 
 ## [공백 문자](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md)
 
+```markdown
+ 
+```
 <details>
 
 | Unicode | 16진수 코드 | 복사하여 사용 | 비고 |
