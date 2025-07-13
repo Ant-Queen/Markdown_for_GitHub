@@ -315,11 +315,11 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
 
 ```markdown
 - [ ] 
-- [X]
+- [x] 
 ```
-- [ ] dd
-- [x] dd
-- [X] dd
+
+- [ ] 
+- [x] 
 
 ```markdown
 - [x] #739
