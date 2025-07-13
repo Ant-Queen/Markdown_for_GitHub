@@ -321,8 +321,8 @@ GitHub의 웹 편집기 또는 [Visual Studio Code](https://code.visualstudio.co
 - [x] 
 ```
 
-- [ ]  
-- [x]  
+- [ ] 
+- [x] 
 
 ```markdown
 - [x] #739
