@@ -166,6 +166,8 @@ Will have a blank line separating both lines
 ```markdown
  
 ```
+`&#x2004;`
+
 <details>
 
 | Unicode | 16진수 코드 | 복사하여 사용 | 비고 |
