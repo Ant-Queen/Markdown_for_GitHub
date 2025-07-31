@@ -1,6 +1,6 @@
 # [Markdown](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
-[제목 (Headings)](#%EC%A0%9C%EB%AA%A9-headings-a)  
+[제목 (Headings)](#%EC%A0%9C%EB%AA%A9-headings-)  
 [텍스트 스타일 지정 (Styling text)](#%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%A7%80%EC%A0%95-styling-text)  
 [텍스트 인용 (Quoting text)](#%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%9D%B8%EC%9A%A9-quoting-text)  
 [인용 코드 (Quoting code)](#%EC%9D%B8%EC%9A%A9-%EC%BD%94%EB%93%9C-quoting-code)  
@@ -14,7 +14,9 @@
 [목록 (Lists)](#목록-lists)  
 [작업 목록 (Task lists)](#작업-목록-task-lists)
 
-## [제목 (Headings)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/01.%20%EC%A0%9C%EB%AA%A9%20(headings).md) [![a](<The unordered list icon.jpg>)](#markdown)
+## [제목 (Headings)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/01.%20%EC%A0%9C%EB%AA%A9%20(headings).md) [![](<The unordered list icon.jpg>)](#markdown)
+
+
 
 ```markdown
 # 
