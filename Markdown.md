@@ -1,21 +1,21 @@
 # [Markdown](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
-[제목 (Headings)](#%EC%A0%9C%EB%AA%A9-headings)  
-[텍스트 스타일 지정 (Styling text)](#%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%A7%80%EC%A0%95-styling-text)  
-[텍스트 인용 (Quoting text)](#%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%9D%B8%EC%9A%A9-quoting-text)  
-[인용 코드 (Quoting code)](#%EC%9D%B8%EC%9A%A9-%EC%BD%94%EB%93%9C-quoting-code)  
-[링크 (Links)](#%EB%A7%81%ED%81%AC-links)  
-[상대 링크 (Relative links)](#%EC%83%81%EB%8C%80-%EB%A7%81%ED%81%AC-relative-links)  
-[섹션 링크 (Section links)](#%EC%84%B9%EC%85%98-%EB%A7%81%ED%81%AC-section-links)  
-[사용자 지정 앵커 (Custom anchors)](#%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%A7%80%EC%A0%95-%EC%95%B5%EC%BB%A4-custom-anchors)  
-[줄 바꿈 (Line breaks)](#줄-바꿈-line-breaks)  
+[제목](#제목-headings)  
+[텍스트 스타일 지정](#텍스트-스타일-지정-styling-text)  
+[텍스트 인용](#텍스트-인용-quoting-text)  
+[인용 코드](#인용-코드-quoting-code)  
+[링크](#링크-links)  
+[상대 링크](#상대-링크-relative-links)  
+[섹션 링크](#섹션-링크-section-links)  
+[사용자 지정 앵커](#%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%A7%80%EC%A0%95-%EC%95%B5%EC%BB%A4-custom-anchors)  
+[줄 바꿈](#줄-바꿈-line-breaks)  
 [공백 문자](#공백-문자)  
-[이미지 (Images)](#이미지-images)  
-[목록 (Lists)](#목록-lists)  
-[작업 목록 (Task lists)](#작업-목록-task-lists)
+[이미지](#이미지-images)  
+[목록](#목록-lists)  
+[작업 목록](#작업-목록-task-lists)
 
 
-## [제목 (Headings)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/01.%20%EC%A0%9C%EB%AA%A9%20(headings).md) [![](<list icon.jpg>)](#markdown)
+## 제목 (Headings) [![](<list icon.jpg>)](#markdown)
 
 https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#%EC%A0%9C%EB%AA%A9-headings
 
@@ -28,7 +28,6 @@ https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#%EC%A0%9C
 ###### 
 ```
 <details>
-
 
 제목을 만들려면 제목 텍스트 앞에 1~6개의 <kbd>#</kbd> 기호를 추가합니다. 사용하는 <kbd>#</kbd>의 수에 따라 제목의 계층 구조 수준과 글꼴 크기가 결정됩니다.
 
@@ -50,7 +49,7 @@ https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#%EC%A0%9C
 
 > [!NOTE]  
 > for GitHub  
-> 두 개 이상의 제목을 사용하는 경우 GitHub는 파일 헤더 내에서! ![alt text](<첨부-제목. list icon.jpg>)을(를) 클릭하여 액세스할 수 있는 목차를 자동으로 생성합니다. 각 제목은 목차에 나열되며, 제목을 클릭하면 선택한 섹션으로 이동할 수 있습니다.
+> 두 개 이상의 제목을 사용하는 경우 GitHub는 파일 헤더 내에서! ![alt text](<list icon.jpg>)을(를) 클릭하여 액세스할 수 있는 목차를 자동으로 생성합니다. 각 제목은 목차에 나열되며, 제목을 클릭하면 선택한 섹션으로 이동할 수 있습니다.
 
 </details>
 
@@ -65,6 +64,63 @@ https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#%EC%A0%9C
 | 취소선 | `~~ ~~` (일부 `~ ~`)| `~~취소선~~ 텍스트` | ~~취소선~~ 텍스트 |
 | 위 첨자 | `<sup> </sup>` | `<sup>위 첨자</sup> 텍스트` | <sup>위 첨자</sup> 텍스트 |
 | 아래 첨자 | `<sub> </sub>` | `<sub>아래 첨자</sub> 텍스트` | <sub>아래 첨자</sub> 텍스트 |
+
+<details>
+
+주석 필드 및 `.md` 파일에서 굵게, 기울임꼴 또는 취소선 텍스트로 강조를 나타낼 수 있습니다.    
+
+> [!NOTE]  
+> `* *` 및 `_ _`는 동일한 효과를 제공하며, `** **` 및 `__ __`도 마찬가지입니다.  
+> 필자는 md파일에서 구별을 직관적으로 하기 위해, 굵게는 `**`를 사용하고, 기울임꼴은 `_`를 사용합니다.
+
+> [!TIP]  
+> 각 스타일은 다양한 조합으로 다양한 곳에 중첩하여 사용 할 수 있습니다.
+
+```markdown
+_기울임꼴로 표시된 텍스트_  
+*기울임꼴로 표시된 텍스트*
+
+**굵게 표시된 텍스트**  
+__굵게 표시된 텍스트__
+
+**_매우_ 중요한 텍스트**  
+__*매우* 중요한 텍스트__
+
+***모든 텍스트가 중요***  
+**_모든 텍스트가 중요_**
+
+<ins>밑줄이 그어진</ins> 텍스트
+
+~실수하여 취소된 텍스트~  
+~~실수하여 취소된 텍스트~~
+
+<sup>위 첨자</sup> 텍스트입니다.
+
+<sub>아래 첨자</sub> 텍스트입니다.
+```
+
+_기울임꼴로 표시된 텍스트_  
+*기울임꼴로 표시된 텍스트*
+
+**굵게 표시된 텍스트**  
+__굵게 표시된 텍스트__
+
+**_매우_ 중요한 텍스트**  
+__*매우* 중요한 텍스트__
+
+***모든 텍스트가 중요***  
+**_모든 텍스트가 중요_**
+
+<ins>밑줄이 그어진</ins> 텍스트
+
+~실수하여 취소된 텍스트~  
+~~실수하여 취소된 텍스트~~
+
+<sup>위 첨자</sup> 텍스트입니다.
+
+<sub>아래 첨자</sub> 텍스트입니다.
+
+</details>
 
 ## [텍스트 인용 (Quoting text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/03.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%9D%B8%EC%9A%A9%20(Quoting%20text).md) [![](<list icon.jpg>)](#markdown)
 
