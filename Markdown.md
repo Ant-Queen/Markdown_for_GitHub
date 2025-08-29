@@ -321,9 +321,9 @@ TEXT 2
 
 Link to the sample section: [Link Text](#sample-section).
 
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
+Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).  <!-- for GitHub --> 
 
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-%CE%B8).
+Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-%CE%B8).  <!-- for GitHub,VSCode --> 
 
 Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
 
@@ -399,7 +399,7 @@ Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-i
 
 </details>
 
-## [사용자 지정 앵커 (Custom anchors)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/09.%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A7%80%EC%A0%95%20%EC%95%B5%EC%BB%A4%20(Custom%20anchors).md) [![](<list icon.jpg>)](#markdown)
+## 사용자 지정 앵커 (Custom anchors) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 a  
