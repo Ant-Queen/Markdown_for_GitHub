@@ -120,13 +120,39 @@ __*매우* 중요한 텍스트__
 
 </details>
 
-## [텍스트 인용 (Quoting text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/03.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%9D%B8%EC%9A%A9%20(Quoting%20text).md) [![](<list icon.jpg>)](#markdown)
+## 텍스트 인용 (Quoting text) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 > 
 ```
 
 <details>
+
+<kbd>></kbd>를 사용하여 텍스트를 인용할 수 있습니다.
+
+```markdown
+Text that is not a quote
+
+> Text that is a quote
+```
+
+Text that is not a quote
+
+> Text that is a quote
+
+<kbd>></kbd> 붙은 텍스트는 왼쪽에 세로선으로 들여쓰기되고 회색 형식으로 표시됩니다.
+
+```markdown
+Text that is not a quote
+
+> first-level
+>> second-level
+>>> third-level
+>
+> first-level
+```
+
+Text that is not a quote
 
 > first-level
 >> second-level
@@ -136,7 +162,7 @@ __*매우* 중요한 텍스트__
 
 </details>
 
-## [인용 코드 (Quoting code)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/04.%20%EC%9D%B8%EC%9A%A9%20%EC%BD%94%EB%93%9C%20(Quoting%20code).md) [![](<list icon.jpg>)](#markdown)
+## 인용 코드 (Quoting code) [![](<list icon.jpg>)](#markdown)
 
 ````markdown
 `text`
@@ -150,10 +176,34 @@ text
 
 <details>
 
-`text`
+단일 백틱<kbd>`</kbd>(필요시 이중 백틱<kbd>``</kbd>)을 사용하여 문장 내에서 코드 또는 명령을 표시할 수 있습니다. 백틱 내의 텍스트는 서식이 지정되지 않습니다.
 
+> [!NOTE]  
+> for GitHub  
+> <kbd>Ctrl</kbd>+<kbd>E</kbd> (Windows/Linux) 또는 <kbd>Command</kbd>+<kbd>E</kbd> (Mac) 단축키를 눌러 Markdown 줄 안에 코드 블록에 대한 백틱을 삽입할 수도 있습니다.
+
+```markdown
+Use `git status` to list all new or modified files that haven't yet been committed.
 ```
-text
+
+Use `git status` to list all new or modified files that haven't yet been committed.
+
+고유한 블록 안으로 코드 또는 텍스트의 서식을 지정하려면 삼중 백틱<kbd>```</kbd>(필요시 사중 백틱<kbd>````</kbd>)을 사용합니다.
+
+````markdown
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+````
+
+Some basic Git commands are:
+```
+git status
+git add
+git commit
 ```
 
 </details>
