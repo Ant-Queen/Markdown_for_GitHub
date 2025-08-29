@@ -15,7 +15,7 @@
 [작업 목록](#작업-목록-task-lists)
 
 
-## 제목 (Headings) [![](<list icon.jpg>)](#markdown)
+## 제목 (Headings) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 # 
@@ -52,7 +52,7 @@
 </details>
 
 
-## 텍스트 스타일 지정 (Styling text) [![](<list icon.jpg>)](#markdown)
+## 텍스트 스타일 지정 (Styling text) [![](<list icon.jpg>)](#markdown)
 
 | 스타일 | 구문 | 예시 | 출력 |
 | --- | --- | --- | --- |
@@ -120,7 +120,7 @@ __*매우* 중요한 텍스트__
 
 </details>
 
-## 텍스트 인용 (Quoting text) [![](<list icon.jpg>)](#markdown)
+## 텍스트 인용 (Quoting text) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 > 
@@ -162,7 +162,7 @@ Text that is not a quote
 
 </details>
 
-## 인용 코드 (Quoting code) [![](<list icon.jpg>)](#markdown)
+## 인용 코드 (Quoting code) [![](<list icon.jpg>)](#markdown)
 
 ````markdown
 `text`
