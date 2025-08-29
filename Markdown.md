@@ -1,7 +1,7 @@
 # [Markdown](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
 [제목](#제목-headings)  
-[텍스트 스타일 지정](#텍스트-스타일-지정-styling-text)  
+[텍스트 스타일 지정](#텍스트-스타일-지정-styling-text-)  
 [텍스트 인용](#텍스트-인용-quoting-text)  
 [인용 코드](#인용-코드-quoting-code)  
 [링크](#링크-links)  
@@ -51,8 +51,8 @@
 
 </details>
 
-
-## 텍스트 스타일 지정 (Styling text) [![](<list icon.jpg>)](#markdown)
+s
+## 텍스트 스타일 지정 (Styling text) [![](<list icon.jpg>)](#markdown)
 
 | 스타일 | 구문 | 예시 | 출력 |
 | --- | --- | --- | --- |
