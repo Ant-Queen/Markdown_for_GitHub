@@ -207,7 +207,7 @@ git commit
 
 </details>
 
-## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md) [![](<list icon.jpg>)](#markdown)
+## 링크 (Links) [![](<list icon.jpg>)](#markdown)
 
 `[]()`
 
