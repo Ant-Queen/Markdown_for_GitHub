@@ -15,7 +15,7 @@
 [작업 목록](#작업-목록-task-lists)
 
 
-## 제목 (Headings) [![](<list icon.jpg>)](#markdown)
+## [제목 (Headings)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/01.%20%EC%A0%9C%EB%AA%A9%20(headings).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 # 
@@ -51,7 +51,7 @@
 
 </details>
 
-## 텍스트 스타일 지정 (Styling text) [![](<list icon.jpg>)](#markdown)
+## [텍스트 스타일 지정 (Styling text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/02.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%8A%A4%ED%83%80%EC%9D%BC%20%EC%A7%80%EC%A0%95%20(Styling%20text).md) [![](<list icon.jpg>)](#markdown)
 
 | 스타일 | 구문 | 예시 | 출력 |
 | --- | --- | --- | --- |
@@ -119,7 +119,7 @@ __*매우* 중요한 텍스트__
 
 </details>
 
-## 텍스트 인용 (Quoting text) [![](<list icon.jpg>)](#markdown)
+## [텍스트 인용 (Quoting text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/03.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%9D%B8%EC%9A%A9%20(Quoting%20text).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 > 
@@ -161,7 +161,7 @@ Text that is not a quote
 
 </details>
 
-## 인용 코드 (Quoting code) [![](<list icon.jpg>)](#markdown)
+## [인용 코드 (Quoting code)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/04.%20%EC%9D%B8%EC%9A%A9%20%EC%BD%94%EB%93%9C%20(Quoting%20code).md) [![](<list icon.jpg>)](#markdown)
 
 ````markdown
 `text`
@@ -207,7 +207,7 @@ git commit
 
 </details>
 
-## 링크 (Links) [![](<list icon.jpg>)](#markdown)
+## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md) [![](<list icon.jpg>)](#markdown)
 
 `[]()`
 
@@ -238,7 +238,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 </details>
 
-## 상대 링크 (Relative links) [![](<list icon.jpg>)](#markdown)
+## [상대 링크 (Relative links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/08.%20%EC%83%81%EB%8C%80%20%EB%A7%81%ED%81%AC%20(Relative%20links).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
@@ -274,7 +274,7 @@ guidelines for this project](docs/CONTRIBUTING.md)
 
 </details>
 
-## 섹션 링크 (Section links) [![](<list icon.jpg>)](#markdown)
+## [섹션 링크 (Section links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/07.%20%EC%84%B9%EC%85%98%20%EB%A7%81%ED%81%AC%20(Section%20links).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 [섹션 링크로 이동](#섹션-링크-section-links)
@@ -399,7 +399,7 @@ Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-i
 
 </details>
 
-## 사용자 지정 앵커 (Custom anchors) [![](<list icon.jpg>)](#markdown)
+## [사용자 지정 앵커 (Custom anchors)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/09.%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A7%80%EC%A0%95%20%EC%95%B5%EC%BB%A4%20(Custom%20anchors).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 a  
