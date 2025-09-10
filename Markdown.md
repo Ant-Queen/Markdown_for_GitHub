@@ -25,31 +25,6 @@
 ##### 
 ###### 
 ```
-<details>
-
-제목을 만들려면 제목 텍스트 앞에 1~6개의 <kbd>#</kbd> 기호를 추가합니다. 사용하는 <kbd>#</kbd>의 수에 따라 제목의 계층 구조 수준과 글꼴 크기가 결정됩니다.
-
-```markdown
-# A first-level heading
-## A second-level heading
-### A third-level heading
-#### A fourth-level heading
-##### A fifth-level heading
-###### A sixth-level heading
-```
-
-# A first-level heading
-## A second-level heading
-### A third-level heading
-#### A fourth-level heading
-##### A fifth-level heading
-###### A sixth-level heading
-
-> [!NOTE]  
-> for GitHub  
-> 두 개 이상의 제목을 사용하는 경우 GitHub는 파일 헤더 내에서! ![alt text](<list icon.jpg>)을(를) 클릭하여 액세스할 수 있는 목차를 자동으로 생성합니다. 각 제목은 목차에 나열되며, 제목을 클릭하면 선택한 섹션으로 이동할 수 있습니다.
-
-</details>
 
 ## [텍스트 스타일 지정 (Styling text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/02.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%8A%A4%ED%83%80%EC%9D%BC%20%EC%A7%80%EC%A0%95%20(Styling%20text).md) [![](<list icon.jpg>)](#markdown)
 
