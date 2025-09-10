@@ -43,42 +43,6 @@
 > 
 ```
 
-<details>
-
-<kbd>></kbd>를 사용하여 텍스트를 인용할 수 있습니다.
-
-```markdown
-Text that is not a quote
-
-> Text that is a quote
-```
-
-Text that is not a quote
-
-> Text that is a quote
-
-<kbd>></kbd> 붙은 텍스트는 왼쪽에 세로선으로 들여쓰기되고 회색 형식으로 표시됩니다.
-
-```markdown
-Text that is not a quote
-
-> first-level
->> second-level
->>> third-level
->
-> first-level
-```
-
-Text that is not a quote
-
-> first-level
->> second-level
->>> third-level
->
-> first-level
-
-</details>
-
 ## [인용 코드 (Quoting code)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/04.%20%EC%9D%B8%EC%9A%A9%20%EC%BD%94%EB%93%9C%20(Quoting%20code).md) [![](<list icon.jpg>)](#markdown)
 
 ````markdown
