@@ -55,40 +55,6 @@ text
 ```
 ````
 
-<details>
-
-단일 백틱<kbd>`</kbd>(필요시 이중 백틱<kbd>``</kbd>)을 사용하여 문장 내에서 코드 또는 명령을 표시할 수 있습니다. 백틱 내의 텍스트는 서식이 지정되지 않습니다.
-
-> [!NOTE]  
-> for GitHub  
-> <kbd>Ctrl</kbd>+<kbd>E</kbd> (Windows/Linux) 또는 <kbd>Command</kbd>+<kbd>E</kbd> (Mac) 단축키를 눌러 Markdown 줄 안에 코드 블록에 대한 백틱을 삽입할 수도 있습니다.
-
-```markdown
-Use `git status` to list all new or modified files that haven't yet been committed.
-```
-
-Use `git status` to list all new or modified files that haven't yet been committed.
-
-고유한 블록 안으로 코드 또는 텍스트의 서식을 지정하려면 삼중 백틱<kbd>```</kbd>(필요시 사중 백틱<kbd>````</kbd>)을 사용합니다.
-
-````markdown
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
-````
-
-Some basic Git commands are:
-```
-git status
-git add
-git commit
-```
-
-</details>
-
 ## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md) [![](<list icon.jpg>)](#markdown)
 
 `[]()`
@@ -99,27 +65,6 @@ git commit
 
 [GitHub](https://github.com/)  
 
-<details>
-
-링크 텍스트를 대괄호 `[ ]`로 묶은 다음 URL을 괄호 `( )`로 묶어 인라인 링크를 만들 수 있습니다.
-
-> [!NOTE]  
-> for GitHub  
-> 단축키 <kbd>Command</kbd>+<kbd>K</kbd>를 사용하여 링크를 만들 수도 있습니다. 텍스트를 선택한 경우 클립보드의 URL을 붙여넣어 선택 영역에서 링크를 자동으로 만들 수 있습니다.  
-> <br/>
-> 텍스트를 강조 표시하고 <kbd>Command</kbd>+<kbd>V</kbd>를 사용하여 Markdown 하이퍼링크를 만들 수도 있습니다. 단축키인 <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd>를 사용하면 텍스트를 링크로 전환할 수 있습니다.
-
-```markdown
-This site was built using [GitHub Pages](https://pages.github.com/).
-```
-
-This site was built using [GitHub Pages](https://pages.github.com/).
-
-> [!NOTE]
-> GitHub는 주석에 유효한 URL이 작성되면 자동으로 링크를 만듭니다. 자세한 내용은 [자동 링크된 참조 및 URL](https://docs.github.com/ko/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)을(를) 참조하세요.
-
-</details>
-
 ## [상대 링크 (Relative links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/08.%20%EC%83%81%EB%8C%80%20%EB%A7%81%ED%81%AC%20(Relative%20links).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
@@ -128,34 +73,6 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
-<details>
-
-렌더링된 파일에서 상대 링크 및 이미지 경로를 정의하여 판독기에서 리포지토리의 다른 파일로 이동할 수 있습니다.
-
-상대 링크는 현재 파일을 기준으로 하는 링크입니다. 예를 들어 리포지토리의 루트에 추가 정보 파일이 있고, *docs/CONTRIBUTING.md*에 다른 파일이 있는 경우, 추가 정보의 *CONTRIBUTING.md*에 대한 상대 링크는 다음과 같습니다.  
-
-```markdown
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
-```
-
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
-
-GitHub는 현재 위치한 분기에 따라 상대 링크 또는 이미지 경로를 자동으로 변환하므로 링크 또는 경로는 항상 작동합니다. 링크의 경로는 현재 파일을 기준으로 합니다. `/` 시작 링크는 리포지토리 루트를 기준으로 합니다. `./` 및 `../`와 같은 모든 상대 링크 피연산자를 사용할 수 있습니다.
-
-링크 텍스트는 한 줄이어야 합니다. 아래 예는 작동하지 않습니다.
-
-```markdown
-[Contribution
-guidelines for this project](docs/CONTRIBUTING.md)
-```
-잘못 된 예  
-[Contribution
-guidelines for this project](docs/CONTRIBUTING.md)
-
-상대 링크는 리포지토리를 복제하는 사용자가 사용하기 더 쉽습니다. 절대 링크는 리포지토리의 복제본에서 작동하지 않을 수 있습니다. 상대 링크를 사용하여 리포지토리 내의 다른 파일을 참조하는 것이 좋습니다.
-
-</details>
-
 ## [섹션 링크 (Section links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/07.%20%EC%84%B9%EC%85%98%20%EB%A7%81%ED%81%AC%20(Section%20links).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
@@ -163,123 +80,6 @@ guidelines for this project](docs/CONTRIBUTING.md)
 ```
 
 [섹션 링크로 이동](#섹션-링크-section-links)
-
-<details>
-
-제목이 있는 모든 섹션에 직접 연결할 수 있습니다. 렌더링된 파일에서 자동으로 생성된 앵커를 보려면 섹션 제목 위로 마우스를 가져가 ![alt text](link.jpg) 아이콘을 표시하고 아이콘을 클릭하여 브라우저에 앵커를 표시합니다.
-
-편집 중인 파일에서 제목에 대한 앵커를 결정해야 하는 경우 다음 기본 규칙을 사용할 수 있습니다.
-
-* 문자는 소문자로 변환됩니다.
-* 스페이스는 하이픈(`-`)으로 바뀝니다. 다른 공백 또는 문장 부호 문자는 모두 제거됩니다.
-* 선행 및 후행 공백은 제거됩니다.
-* 마크업 서식이 제거되고 내용만 남습니다(예: `_italics_`는 `italics`가 됩니다).
-* 제목에 대해 자동으로 생성된 앵커가 동일한 문서의 이전 앵커와 동일한 경우 하이픈과 자동 증가 정수를 추가하여 고유 식별자가 생성됩니다.
-
-URI 조각의 요구 사항에 대한 자세한 내용은 [RFC 3986: URI(Uniform Resource Identifier): 제네릭 구문, 섹션 3.5](https://www.rfc-editor.org/rfc/rfc3986#section-3.5)를 참조하세요.
-
-아래 코드 블록은 렌더링된 콘텐츠의 제목에서 앵커를 생성하는 데 사용되는 기본 규칙을 보여 줍니다.
-
-> [!NOTE]  
-> **제목**을 편집하거나 "동일한" 앵커를 사용하여 제목 순서를 **변경하는 경우** 앵커가 변경될 때 해당 제목의 **링크도 업데이트**해야 합니다.
-
-```markdown
-# Example headings
-
-## Sample Section
-
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
-
-## This heading is not unique in the file
-
-TEXT 1
-
-## This heading is not unique in the file
-
-TEXT 2
-
-# Links to the example headings above
-
-Link to the sample section: [Link Text](#sample-section).
-
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).  <!-- for GitHub --> 
-
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-%CE%B8).  <!-- for GitHub,VSCode --> 
-
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
-
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
-```
-
-# Example headings
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## Sample Section
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## This heading is not unique in the file
-
-TEXT 1
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-## This heading is not unique in the file
-
-TEXT 2
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-# Links to the example headings above
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-Link to the sample section: [Link Text](#sample-section).
-
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-Θ).
-
-Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-greek-letter-%CE%B8).
-
-Link to the first non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file).
-
-Link to the second non-unique section: [Link Text](#this-heading-is-not-unique-in-the-file-1).
-
-</details>
 
 ## [사용자 지정 앵커 (Custom anchors)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/09.%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A7%80%EC%A0%95%20%EC%95%B5%EC%BB%A4%20(Custom%20anchors).md) [![](<list icon.jpg>)](#markdown)
 
@@ -297,10 +97,6 @@ b
 
 [A link to that custom anchor](#my-custom-anchor-point)
 
-<details>
-
-</details>
-
 ## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
 
 * 첫 번째 줄 끝에 공백 두 개를 포함합니다.
@@ -309,30 +105,7 @@ b
   Will span two lines
   </pre>
 
-
-<details>
-
-* 첫 번째 줄 끝에 백슬래시를 포함합니다.
-
-  ```markdown
-  This example\
-  Will span two lines
-  ```
-
-* 첫 번째 줄 끝에 HTML 단일 줄 바꿈 태그를 포함합니다.
-
-  ```markdown
-  This example<br/>
-  Will span two lines
-  ```
-
   This example  
-  Will span two lines
-
-  This example\
-  Will span two lines
-
-  This example<br/>
   Will span two lines
 
 두 줄 사이에 빈 줄을 넣으면 .md 파일과 문제, 끌어오기 요청, 토론에서 사용되는 Markdown이 모두 빈 줄로 구분되어 두 줄로 렌더링합니다.
@@ -347,15 +120,15 @@ This example
 
 Will have a blank line separating both lines
 
-</details>
+
 
 ## [공백 문자](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
  
 ```
-`&#x2004;`
-
+`&#x2004;`  
+&#x2004;  
 <details>
 
 | Unicode | 16진수 코드 | 복사하여 사용 | 비고 |
