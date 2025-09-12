@@ -11,7 +11,7 @@
 [섹션 링크](#섹션-링크-section-links)  
 [사용자 지정 앵커](#사용자-지정-앵커-custom-anchors)  
 [줄 바꿈](#줄-바꿈-line-breaks)  
-[공백 문자](#공백-문자)  
+[공백 문자](#공백-문자-whitespace-characters)  
 [이미지](#이미지-images)  
 [목록](#목록-lists)  
 [작업 목록](#작업-목록-task-lists)
@@ -92,14 +92,13 @@ b
 ```
 
 ## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
-
 줄 끝에 공백 두 개를 포함
 <pre>
 This example&nbsp;&nbsp;<!-- "  " 실제로는 스페이스바(공백)를 2번 입력 -->
 Will span two lines
 </pre>
 
-## [공백 문자](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](<list icon.jpg>)](#markdown)
+## [공백 문자 (Whitespace characters)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
  
@@ -133,16 +132,3 @@ Will span two lines
 - [ ] 
 - [x] 
 ```
-
-- [ ] 
-- [x] 
-
-```markdown
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-```
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
