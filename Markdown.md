@@ -93,7 +93,7 @@ b
 
 ## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
 
-줄 끝에 공백 두 개를 포함합니다.
+줄 끝에 공백 두 개를 포함
 <pre>
 This example&nbsp;&nbsp;<!-- "  " 실제로는 스페이스바(공백)를 2번 입력 -->
 Will span two lines
@@ -125,9 +125,11 @@ Will span two lines
     - Second nested list item
 ```
 
-1. First list item
-   - First nested list item
-     - Second nested list item
+1. ㅁㄹㄹㄹ
+   - 
+     - 
+     
+       - Third nested list item
 2. Second list item
    - First nested list item
      - Second nested list item
