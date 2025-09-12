@@ -125,15 +125,6 @@ Will span two lines
     - Second nested list item
 ```
 
-1. ㅁㄹㄹㄹ
-   - 
-     - 
-     
-       - Third nested list item
-2. Second list item
-   - First nested list item
-     - Second nested list item
-
 ## [작업 목록 (Task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/13.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20(Task%20lists).md) [![](<list icon.jpg>)](#markdown)
 
 `- [ ] `
@@ -151,3 +142,7 @@ Will span two lines
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 ```
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
