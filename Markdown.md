@@ -17,7 +17,9 @@
 [공백 문자](#공백-문자-whitespace-characters)  
 [이미지](#이미지-images)  
 [목록](#목록-lists)  
-[작업 목록](#작업-목록-task-lists)
+[작업 목록](#작업-목록-task-lists)  
+[단락](#단락-paragraphs)  
+[경고](#경고-alerts)  
 
 |  |  |
 |---|---|
@@ -135,3 +137,57 @@ Will span two lines
 - [ ] 
 - [x] 
 ```
+
+## [단락 (Paragraphs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/19.%20%EB%8B%A8%EB%9D%BD%20(Paragraphs).md) [![](<list icon.jpg>)](#markdown)
+
+텍스트 줄 사이에 빈 줄을 둠
+<pre>
+This example
+
+Will span two lines
+</pre>
+
+## [경고 (Alerts)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/21.%20%EA%B2%BD%EA%B3%A0%20(Alerts).md) [![](<list icon.jpg>)](#markdown)
+> for GitHub  
+
+경고는 중요한 정보를 강조하는 데 사용할 수 있는 blockquote 구문을 기반으로 한 Markdown 확장입니다. GitHub에서는 콘텐츠의 중요도를 나타내기 위해 고유한 색과 아이콘으로 표시됩니다.
+
+경고는 사용자 성공에 중요한 경우에만 사용하고, 판독기 오버로드를 방지하기 위해 문서당 하나 또는 두 개로 제한합니다. 또한 경고를 연속적으로 배치하지 않아야 합니다. 경고는 다른 요소 내에 중첩될 수 없습니다.
+
+경고를 추가하려면 경고 유형을 지정하는 특수 blockquote 줄을 사용하고, 그 다음에는 표준 blockquote의 경고 정보를 사용합니다. 5가지 유형의 경고를 사용할 수 있습니다.
+
+```markdown
+> [!NOTE]  
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]  
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]  
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]  
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]  
+> Advises about risks or negative outcomes of certain actions.
+```
+
+> [!NOTE]  
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]  
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]  
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]  
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]  
+> Advises about risks or negative outcomes of certain actions.
+
+렌더링된 경고는 다음과 같습니다.
+
+![Screenshot of rendered Markdown alerts showing how Note, Tip, Important, Warning, and Caution render with different colored text and icons.](https://docs.github.com/assets/cb-24696/mw-1440/images/help/writing/alerts-rendered.webp)
