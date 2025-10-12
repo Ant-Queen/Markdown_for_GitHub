@@ -6,22 +6,26 @@
 # [Markdown](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
 [제목](#제목-headings)  
-[텍스트 스타일 지정](#텍스트-스타일-지정-styling-text)  
+[텍스트 스타일](#텍스트-스타일-지정-styling-text)  
+[줄 바꿈](#줄-바꿈-line-breaks)  
+[단락](#단락-paragraphs)  
+[공백 문자](#공백-문자-whitespace-characters)  
+
 [텍스트 인용](#텍스트-인용-quoting-text)  
 [인용 코드](#인용-코드-quoting-code)  
+[주석이 있는 콘텐츠 숨기기](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments)  
+[Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting)
+
 [링크](#링크-links)  
 [상대 링크](#상대-링크-relative-links)  
 [섹션 링크](#섹션-링크-section-links)  
 [사용자 지정 앵커](#사용자-지정-앵커-custom-anchors)  
-[줄 바꿈](#줄-바꿈-line-breaks)  
-[공백 문자](#공백-문자-whitespace-characters)  
+
 [이미지](#이미지-images)  
+
 [목록](#목록-lists)  
 [작업 목록](#작업-목록-task-lists)  
-[단락](#단락-paragraphs)  
 [경고](#경고-alerts)  
-[주석이 있는 콘텐츠 숨기기](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments)  
-[Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting)
 
 |  |  |
 |---|---|
