@@ -13,7 +13,7 @@
 
 [텍스트 인용](#텍스트-인용-quoting-text)  
 [인용 코드](#인용-코드-quoting-code)  
-[주석이 있는 콘텐츠 숨기기](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments)  
+[주석 숨김처리](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments)  
 [Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting)
 
 [링크](#링크-links)  
@@ -54,6 +54,38 @@
 | 위 첨자 | `<sup> </sup>` | `<sup>위 첨자</sup>` | <sup>위 첨자</sup> |
 | 아래 첨자 | `<sub> </sub>` | `<sub>아래 첨자</sub>` | <sub>아래 첨자</sub> |
 
+## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
+
+줄 끝에 공백 두 개를 포함
+<pre>
+This example&nbsp;&nbsp;<!-- "  " 실제로는 스페이스바(공백)를 2번 입력 -->
+Will span two lines
+</pre>
+* 첫 번째 줄 끝에 HTML 단일 줄 바꿈 태그를 포함합니다.
+
+```markdown
+This example<br/>
+Will span two lines
+```
+
+## [단락 (Paragraphs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/19.%20%EB%8B%A8%EB%9D%BD%20(Paragraphs).md) [![](<list icon.jpg>)](#markdown)
+
+텍스트 줄 사이에 빈 줄을 둠
+<pre>
+This example
+
+Will span two lines
+</pre>
+
+## [공백 문자 (Whitespace characters)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](<list icon.jpg>)](#markdown)
+
+```markdown
+ 
+```
+`&#x2004;`  
+<br/>
+<br/>
+
 ## [텍스트 인용 (Quoting text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/03.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%9D%B8%EC%9A%A9%20(Quoting%20text).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
@@ -71,6 +103,10 @@
 text
 ```
 ````
+<br/>
+<br/>
+
+---
 
 ## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md) [![](<list icon.jpg>)](#markdown)
 
@@ -102,20 +138,6 @@ b
 [A link to that custom anchor](#my-custom-anchor-point)
 ```
 
-## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
-줄 끝에 공백 두 개를 포함
-<pre>
-This example&nbsp;&nbsp;<!-- "  " 실제로는 스페이스바(공백)를 2번 입력 -->
-Will span two lines
-</pre>
-
-## [공백 문자 (Whitespace characters)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](<list icon.jpg>)](#markdown)
-
-```markdown
- 
-```
-`&#x2004;`  
-
 ## [이미지 (Images)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/11.%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20(Images).md) [![](<list icon.jpg>)](#markdown)
 
 `![]()`
@@ -143,15 +165,6 @@ Will span two lines
 - [ ] 
 - [x] 
 ```
-
-## [단락 (Paragraphs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/19.%20%EB%8B%A8%EB%9D%BD%20(Paragraphs).md) [![](<list icon.jpg>)](#markdown)
-
-텍스트 줄 사이에 빈 줄을 둠
-<pre>
-This example
-
-Will span two lines
-</pre>
 
 ## [경고 (Alerts)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/21.%20%EA%B2%BD%EA%B3%A0%20(Alerts).md) [![](<list icon.jpg>)](#markdown)
 > for GitHub  
