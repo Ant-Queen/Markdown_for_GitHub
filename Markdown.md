@@ -61,8 +61,8 @@
 This example&nbsp;&nbsp;<!-- "  " 실제로는 스페이스바(공백)를 2번 입력 -->
 Will span two lines
 </pre>
-* 첫 번째 줄 끝에 HTML 단일 줄 바꿈 태그를 포함합니다.
 
+줄 끝에 HTML 단일 줄 바꿈 태그를 포함
 ```markdown
 This example<br/>
 Will span two lines
@@ -83,6 +83,8 @@ Will span two lines
  
 ```
 `&#x2004;`  
+
+<br/>
 <br/>
 <br/>
 
@@ -103,10 +105,16 @@ Will span two lines
 text
 ```
 ````
-<br/>
-<br/>
 
----
+## [주석이 있는 콘텐츠 숨기기 (Hiding content with comments)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/22.%20%EC%A3%BC%EC%84%9D%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%88%A8%EA%B8%B0%EA%B8%B0%20(Hiding%20content%20with%20comments).md) [![](<list icon.jpg>)](#markdown)
+
+```markdown
+<!-- not appear -->
+```
+
+<br/>
+<br/>
+<br/>
 
 ## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md) [![](<list icon.jpg>)](#markdown)
 
@@ -138,6 +146,10 @@ b
 [A link to that custom anchor](#my-custom-anchor-point)
 ```
 
+<br/>
+<br/>
+<br/>
+
 ## [이미지 (Images)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/11.%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20(Images).md) [![](<list icon.jpg>)](#markdown)
 
 `![]()`
@@ -145,6 +157,10 @@ b
 ```markdown
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)`  
 ```
+
+<br/>
+<br/>
+<br/>
 
 ## [목록 (Lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/12.%20%EB%AA%A9%EB%A1%9D%20(Lists).md) [![](<list icon.jpg>)](#markdown)
 
@@ -186,12 +202,6 @@ b
 > Advises about risks or negative outcomes of certain actions.
 ```
 
-## [주석이 있는 콘텐츠 숨기기 (Hiding content with comments)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/22.%20%EC%A3%BC%EC%84%9D%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%88%A8%EA%B8%B0%EA%B8%B0%20(Hiding%20content%20with%20comments).md) [![](<list icon.jpg>)](#markdown)
-
-```markdown
-<!-- This content will not appear in the rendered Markdown -->
-```
-
 ## [Markdown 서식 무시 (Ignoring Markdown formatting)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/23.%20Markdown%20%EC%84%9C%EC%8B%9D%20%EB%AC%B4%EC%8B%9C%20(Ignoring%20Markdown%20formatting).md) [![](<list icon.jpg>)](#markdown)
 
 
@@ -199,4 +209,25 @@ b
 
 ```markdown
 Let's rename \*our-new-project\* to \*our-old-project\*.
+```
+
+
+
+# 테이블로 구성 정보 (Organizing information with tables)
+주석, 이슈, 끌어오기 요청 및 wiki의 정보를 구성하는 테이블을 작성할 수 있습니다.
+
+## 테이블 만들기 (Creating a table)
+
+```markdown
+|  |  |
+|---|---|
+|  |  |
+|  |  |
+```
+
+```markdown
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 ```
