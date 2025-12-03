@@ -27,6 +27,9 @@
 [작업 목록](#작업-목록-task-lists)  
 [경고](#경고-alerts)  
 
+[테이블](#테이블로-구성-정보-organizing-information-with-tables)  
+[축소된 섹션을 사용하여 정보 구성](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections)
+
 |  |  |
 |---|---|
 |  |  |
@@ -211,12 +214,11 @@ b
 Let's rename \*our-new-project\* to \*our-old-project\*.
 ```
 
+<br/>
+<br/>
+<br/>
 
-
-# 테이블로 구성 정보 (Organizing information with tables)
-주석, 이슈, 끌어오기 요청 및 wiki의 정보를 구성하는 테이블을 작성할 수 있습니다.
-
-## 테이블 만들기 (Creating a table)
+# [테이블로 구성 정보 (Organizing information with tables)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/31.%20%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B5%AC%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20(Organizing%20information%20with%20tables).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 |  |  |
@@ -231,3 +233,80 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 ```
+
+
+
+
+# [축소된 섹션을 사용하여 정보 구성 (Organizing information with collapsed sections)](https://docs.github.com/ko/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) [![](<list icon.jpg>)](#markdown)
+
+`<details>` 태그를 사용하여 축소된 섹션을 만들어 Markdown을 간소화할 수 있습니다.
+
+## 축소된 섹션 만들기 (Creating a collapsed section)
+
+사용자가 확장하도록 선택할 수 있는 축소된 섹션을 만들어 Markdown의 섹션을 일시적으로 가릴 수 있습니다. 예를 들어, 모든 사용자와 관련이 없거나 흥미롭지 않을 수 있는 이슈 주석에 기술 세부 정보를 포함하려는 경우 해당 세부 정보를 축소된 섹션에 넣을 수 있습니다.
+
+`<details>` 블록 내의 Markdown은 사용자가  아이콘을 클릭하여 세부 정보를 확장하기 전까지는 접혀 있습니다.
+
+`<details>` 블록 내에서 `<summary>` 태그를 사용하여 판독기 내에 무엇이 있는지 알 수 있습니다. 레이블은 ![alt text](<첨부-축소된 섹션. triangle-right.jpg>) 아이콘의 오른쪽에 표시됩니다.
+
+````markdown
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+````
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
+<br/>
+
+`<summary>` 레이블 내 Markdown은 기본적으로 축소됩니다.
+
+사용자가 ![alt text](<첨부-축소된 섹션. triangle-right.jpg>) 아이콘을 클릭하면 세부 정보가 확장됩니다.
+
+필요에 따라 섹션을 기본적으로 열려 있는 것으로 표시하려면 `<details>` 태그에 `open` 특성을 추가합니다.
+
+```markdown
+<details open>
+```
+
+<details open>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
