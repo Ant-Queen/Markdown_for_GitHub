@@ -28,7 +28,8 @@
 [경고](#경고-alerts)  
 
 [테이블](#테이블로-구성-정보-organizing-information-with-tables)  
-[축소된 섹션을 사용하여 정보 구성](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections)
+[축소된 섹션을 사용하여 정보 구성](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections)  
+[코드 블록 만들기 및 강조 표시](#코드-블록-만들기-및-강조-표시-creating-and-highlighting-code-blocks)
 
 |  |  |
 |---|---|
@@ -237,7 +238,8 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 
 
-# [축소된 섹션을 사용하여 정보 구성 (Organizing information with collapsed sections)](https://docs.github.com/ko/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections) [![](<list icon.jpg>)](#markdown)
+# [축소된 섹션을 사용하여 정보 구성 (Organizing information with collapsed sections)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/32.%20%EC%B6%95%EC%86%8C%EB%90%9C%20%EC%84%B9%EC%85%98%20(Organizing%20information%20with%20collapsed%20sections).md) [![](<list icon.jpg>)](#markdown)
+
 
 ````markdown
 <details open>
@@ -245,3 +247,34 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 </details>
 ````
+
+
+
+# [코드 블록 만들기 및 강조 표시 (Creating and highlighting code blocks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/33.%20%EC%BD%94%EB%93%9C%20%EB%B8%94%EB%A1%9D%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20%EB%B0%8F%20%EA%B0%95%EC%A1%B0%20%ED%91%9C%EC%8B%9C%20(Creating%20and%20highlighting%20code%20blocks).md) [![](<list icon.jpg>)](#markdown)
+
+## 구문 강조 (Syntax highlighting)
+
+````text
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+````
+
+그러면 구문이 강조 표시된 코드 블록이 표시됩니다.
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+> [!TIP]  
+> GitHub Pages 사이트에서 구문을 강조 표시하려는 울타리친 코드 블록을 만들 때 소문자 언어 식별자를 사용합니다. 자세한 내용은 [GitHub Pages 및 Jekyll 정보](/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#syntax-highlighting)을(를) 참조하세요.
+
+[Linguist](https://github.com/github-linguist/linguist)를 사용하여 언어 검색을 수행하고 구문 강조를 위해 [타사 문법](https://github.com/github-linguist/linguist/blob/main/vendor/README.md)을 선택합니다. [언어 YAML 파일](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml)에서 유효한 키워드를 확인할 수 있습니다.
+
+## 다이어그램 만들기 (Creating diagrams)
+
+코드 블록을 사용하여 Markdown으로 다이어그램을 만들 수도 있습니다. GitHub는 Mermaid, GeoJSON, TopoJSON, ASCII STL 구문을 지원합니다. 자세한 내용은 [다이어그램 만들기](https://docs.github.com/ko/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams)을(를) 참조하세요.
