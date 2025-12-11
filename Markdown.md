@@ -271,26 +271,7 @@ puts markdown.to_html
 
 # [수학 식 작성 (Writing mathematical expressions)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/35.%20%EC%88%98%ED%95%99%20%EC%8B%9D%20(Writing%20mathematical%20expressions).md) [![](<list icon.jpg>)](#markdown)
 
-
-Markdown을 사용하여 GitHub에 수학식을 표시합니다.
-
-## 수학 식 작성 정보 (About writing mathematical expressions)
-
-수학식의 명확한 전달을 위해 GitHub는 Markdown 내에서 LaTeX 형식의 수학을 지원합니다. 자세한 내용은 Wikibooks에서 [LaTeX/Mathematics](http://en.wikibooks.org/wiki/LaTeX/Mathematics)를 참조하세요.
-
-GitHub의 수학 렌더링 기능은 오픈 소스 JavaScript 기반 디스플레이 엔진인 MathJax를 사용합니다. MathJax는 다양한 LaTeX 매크로 및 몇 가지 유용한 접근성 확장을 지원합니다. 자세한 내용은 [MathJax 설명서](http://docs.mathjax.org/en/latest/input/tex/index.html#tex-and-latex-support) 및 [MathJax 접근성 확장 설명서](https://mathjax.github.io/MathJax-a11y/docs/#reader-guide)를 참조하세요.
-
-다이어그램 렌더링은 GitHub Issues, GitHub Discussions, pull request, wiki 및 markdown 파일에서 사용할 수 있습니다.
-
-## 인라인 식 작성 (Writing inline expressions)
-
-텍스트와 인라인으로 수학식을 구분하는 두 가지 옵션이 있습니다. 식을 달러 기호(`$`)로 묶거나 식을 <code>$\`</code>로 시작하고 <code>\`$</code>로 끝낼 수 있습니다. 후자의 구문은 작성 중인 식에 markdown 구문과 겹치는 문자가 포함된 경우에 유용합니다. 자세한 내용은 [기본 쓰기 및 서식 지정 구문](https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)을(를) 참조하세요.
-
-```markdown
-This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
-```
-
-This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
+<code>$\`</code>
 
 ```markdown
 This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
@@ -298,55 +279,6 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
 
-## 식을 블록으로 작성 (Writing expressions as blocks)
 
-수학 식을 블록으로 추가하려면 새 줄을 시작하고 식을 이중 달러(`$$`) 기호로 구분합니다.
 
->[!TIP]  
-.md 파일에서 작성하는 경우 아래 예제와 같이 백슬래시로 줄을 끝내는 등 특정 서식을 사용하여 줄 바꿈을 만들어야 합니다. Markdown의 줄 바꿈에 대한 자세한 내용은 [기본 쓰기 및 서식 지정 구문](/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#line-breaks)을(를) 참조하세요.
 
-```markdown
-**The Cauch-Schwarz Inequality**\
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-```
-
-**The Cauchy-Schwarz Inequality**\
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
-또는 <code>\`\`\`math</code> 코드 블록 구문을 사용하여 수학 식을 블록으로 표시할 수 있습니다. 이 구문을 사용하면 `$$` 구분 기호를 사용할 필요가 없습니다. 다음은 위와 동일하게 렌더링됩니다.
-
-````markdown
-**The Cauchy-Schwarz Inequality**
-
-```math
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-```
-````
-
-**The Cauchy-Schwarz Inequality**
-
-```math
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-```
-
-## 수학 식과 동일한 줄 또는 수학 식 내부에서 달러 기호 사용 (Writing dollar signs in line with and within mathematical expressions)
-
-달러 기호를 수학 식과 동일한 줄에 문자로 표시하려면 구분 기호가 아닌 `$`를 이스케이프하여 줄이 올바르게 렌더링되도록 해야 합니다.
-
-To display a dollar sign as a character in the same line as a mathematical expression, you need to escape the non-delimiter `$` to ensure the line renders correctly.
-
-* 수학 식 내에서 명시적 `$` 앞에 `\` 기호를 추가합니다.
-
-  ```markdown
-  This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$
-  ```
-
-  This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$
-
-* 수학 식 외부에 있지만 동일한 줄에서 명시적 `$` 주위에 범위 태그를 사용합니다.
-
-  ```markdown
-  To split <span>$</span>100 in half, we calculate $100/2$
-  ```
-
-  To split <span>$</span>100 in half, we calculate $100/2$
