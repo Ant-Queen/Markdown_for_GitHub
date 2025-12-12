@@ -32,6 +32,7 @@
 [코드 블록 만들기 및 강조 표시](#코드-블록-만들기-및-강조-표시-creating-and-highlighting-code-blocks)  
 [다이어그램 만들기](#다이어그램-만들기-creating-diagrams)  
 [수학 식 작성](#수학-식-작성-writing-mathematical-expressions)  
+[자동 링크된 참조 및 URL](#자동-링크된-참조-및-url-autolinked-references-and-urls)  
 
 |  |  |
 |---|---|
@@ -282,3 +283,51 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 
 
+# [자동 링크된 참조 및 URL (Autolinked references and URLs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/36.%20%EC%9E%90%EB%8F%99%20%EB%A7%81%ED%81%AC%EB%90%9C%20%EC%B0%B8%EC%A1%B0%20%EB%B0%8F%20URL%20(Autolinked%20references%20and%20URLs).md) [![](<list icon.jpg>)](#markdown)
+
+URL, 문제, 끌어오기 요청 및 커밋에 대한 참조는 자동으로 단축되어 링크로 변환됩니다.
+
+## URL
+
+GitHub는 표준 URL에서 자동으로 링크를 만듭니다.
+
+```markdown
+Visit https://github.com
+```
+
+Visit https://github.com
+
+
+## 레이블 (Labels)
+???
+
+Markdown에서 레이블의 URL을 참조할 때 레이블이 자동으로 렌더링됩니다. 동일한 리포지토리의 레이블만 렌더링되고, 다른 리포지토리의 레이블을 가리키는 [URL](https://docs.github.com/ko/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#urls)은 모든 URL로 렌더링됩니다.
+
+레이블의 URL은 레이블 페이지로 이동하여 레이블을 클릭하여 찾을 수 있습니다. 예를 들어 퍼블릭 [문서 리포지토리](https://github.com/github/docs/)에 있는 “향상” 레이블의 ​​URL은 다음과 같습니다.
+
+```markdown
+https://github.com/github/docs/labels/enhancement
+```
+
+https://github.com/github/docs/labels/enhancement
+
+## SHA 커밋 (Commit SHAs)
+???
+
+커밋의 SHA 해시에 대한 참조는 GitHub에서 커밋에 대한 단축된 링크로 자동으로 변환됩니다.
+
+| 참조 형식 | 원시 참조 | 짧은 링크 |
+| --- | --- | --- |
+| 커밋 URL | [`https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e`](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) | [a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
+| SHA | a5c3785ed8d6a35868bc169f07e40e889087fd2e | [a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
+| User@SHA | jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e | [jlord@a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e)
+| `Username/Repository@SHA` | `jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e` | [`jlord/sheetsee.js@a5c3785`](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
+
+### 커밋 SHA 참조 문제 해결 (Troubleshooting referencing commit SHAs)
+
+커밋 메시지 내 프라이빗 리포지토리에서 커밋을 참조하는 경우 커밋의 작성자 또는 커밋자 중 하나 이상이 참조된 커밋에 대한 읽기 권한이 있는 경우에만 커밋 SHA가 짧은 링크로 연결됩니다.
+
+## 외부 리소스에 대한 사용자 지정 자동 링크 (Custom autolinks to external resources)
+???
+
+리포지토리에 사용자 지정 자동 링크 참조가 구성된 경우 JIRA 문제 또는 Zendesk 티켓과 같은 외부 리소스에 대한 참조가 단축된 링크로 변환됩니다. 리포지토리에서 사용할 수 있는 자동 링크를 알아보려면 리포지토리에 대한 관리자 권한이 있는 사람에게 문의하세요. 자세한 내용은 [외부 리소스를 참조하도록 자동 링크 구성](/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources)을(를) 참조하세요.
