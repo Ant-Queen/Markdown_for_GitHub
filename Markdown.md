@@ -287,29 +287,7 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 URL, 문제, 끌어오기 요청 및 커밋에 대한 참조는 자동으로 단축되어 링크로 변환됩니다.
 
-## URL
 
-GitHub는 표준 URL에서 자동으로 링크를 만듭니다.
-
-```markdown
-Visit https://github.com
-```
-
-Visit https://github.com
-
-
-## 레이블 (Labels)
-???
-
-Markdown에서 레이블의 URL을 참조할 때 레이블이 자동으로 렌더링됩니다. 동일한 리포지토리의 레이블만 렌더링되고, 다른 리포지토리의 레이블을 가리키는 [URL](https://docs.github.com/ko/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#urls)은 모든 URL로 렌더링됩니다.
-
-레이블의 URL은 레이블 페이지로 이동하여 레이블을 클릭하여 찾을 수 있습니다. 예를 들어 퍼블릭 [문서 리포지토리](https://github.com/github/docs/)에 있는 “향상” 레이블의 ​​URL은 다음과 같습니다.
-
-```markdown
-https://github.com/github/docs/labels/enhancement
-```
-
-https://github.com/github/docs/labels/enhancement
 
 ## SHA 커밋 (Commit SHAs)
 ???
