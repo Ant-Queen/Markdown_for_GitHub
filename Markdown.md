@@ -335,3 +335,32 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 Markdown 렌더링 없이 Markdown 파일을 로드하여 Markdown 파일의 특정 줄에 연결할 수 있습니다. 렌더링하지 않고 Markdown 파일을 로드하려면 파일의 URL 끝에 있는 `?plain=1` 매개 변수를 사용할 수 있습니다. 예들 들어 `github.com/<organization>/<repository>/blob/<commit_SHA>/README.md?plain=1`입니다.
 
 코드에서와 동일한 방식으로 Markdown 파일의 특정 줄에 연결할 수 있습니다. URL 끝에 줄 번호 또는 숫자와 함께 `#L`을 추가합니다. 예를 들어 `github.com/<organization>/<repository>/blob/<commit_SHA>/README.md?plain=1#L14`는 일반 README.md 파일에서 줄 14를 강조 표시합니다.
+
+
+
+
+# [이슈 및 끌어오기 요청에 키워드 사용 (Using keywords in issues and pull requests)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/40.%20%EC%9D%B4%EC%8A%88%20%EB%B0%8F%20%EB%81%8C%EC%96%B4%EC%98%A4%EA%B8%B0%20%EC%9A%94%EC%B2%AD%EC%97%90%20%ED%82%A4%EC%9B%8C%EB%93%9C%20%EC%82%AC%EC%9A%A9%20().md) [![](<list icon.jpg>)](#markdown)
+
+키워드를 사용하여 문제를 연결하고 요청을 끌어오거나 문제를 표시하거나 끌어오기 요청을 중복으로 표시합니다.
+
+## 끌어오기 요청을 이슈에 연결 (Linking a pull request to an issue)
+
+끌어오기 요청을 이슈에 연결하여 수정이 진행 중임을 표시하고 누군가가 끌어오기 요청을 병합할 때 이슈를 자동으로 닫으려면, 다음 키워드 중 하나를 입력하고 그 뒤에 이슈에 대한 참조를 입력합니다. 예를 들어 `Closes #10` 또는 `Fixes octo-org/octo-repo#100`입니다.
+
+<!-- markdownlint-disable GHD034 -->
+* close
+* closes
+* closed
+* fix
+* fixes
+* fixed
+* resolve
+* resolves
+* resolved
+<!-- markdownlint-enable GHD034 -->
+
+자세한 내용은 [끌어오기 요청을 이슈에 연결](https://docs.github.com/ko/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)을(를) 참조하세요.
+
+## 이슈 또는 끌어오기 요청을 중복으로 표시 (Marking an issue or pull request as a duplicate)
+
+이슈 또는 끌어오기 요청을 중복으로 표시하려면 “Duplicate of”를 입력한 다음 새 주석 본문에 중복되는 이슈 또는 끌어오기 요청 번호를 입력합니다. 자세한 내용은 [문제 또는 끌어오기 요청을 중복으로 표시](https://docs.github.com/ko/issues/tracking-your-work-with-issues/marking-issues-or-pull-requests-as-a-duplicate)을(를) 참조하세요.
