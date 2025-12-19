@@ -285,27 +285,53 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 # [자동 링크된 참조 및 URL (Autolinked references and URLs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/36.%20%EC%9E%90%EB%8F%99%20%EB%A7%81%ED%81%AC%EB%90%9C%20%EC%B0%B8%EC%A1%B0%20%EB%B0%8F%20URL%20(Autolinked%20references%20and%20URLs).md) [![](<list icon.jpg>)](#markdown)
 
-URL, 문제, 끌어오기 요청 및 커밋에 대한 참조는 자동으로 단축되어 링크로 변환됩니다.
 
 
 
-## SHA 커밋 (Commit SHAs)
-???
+# [파일 첨부 (Attaching files)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/37.%20%ED%8C%8C%EC%9D%BC%20%EC%B2%A8%EB%B6%80%20(Attaching%20files).md) [![](<list icon.jpg>)](#markdown)
 
-커밋의 SHA 해시에 대한 참조는 GitHub에서 커밋에 대한 단축된 링크로 자동으로 변환됩니다.
 
-| 참조 형식 | 원시 참조 | 짧은 링크 |
-| --- | --- | --- |
-| 커밋 URL | [`https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e`](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) | [a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-| SHA | a5c3785ed8d6a35868bc169f07e40e889087fd2e | [a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-| User@SHA | jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e | [jlord@a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e)
-| `Username/Repository@SHA` | `jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e` | [`jlord/sheetsee.js@a5c3785`](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
+# [작업 목록 정보 (About task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/38.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20%EC%A0%95%EB%B3%B4%20(About%20task%20lists).md) [![](<list icon.jpg>)](#markdown)
+> for GitHub  
 
-### 커밋 SHA 참조 문제 해결 (Troubleshooting referencing commit SHAs)
 
-커밋 메시지 내 프라이빗 리포지토리에서 커밋을 참조하는 경우 커밋의 작성자 또는 커밋자 중 하나 이상이 참조된 커밋에 대한 읽기 권한이 있는 경우에만 커밋 SHA가 짧은 링크로 연결됩니다.
 
-## 외부 리소스에 대한 사용자 지정 자동 링크 (Custom autolinks to external resources)
-???
+# [코드 조각에 대한 고정 링크 만들기 (Creating a permanent link to a code snippet)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/39.%20%EC%BD%94%EB%93%9C%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%98%81%EA%B5%AC%20%EB%A7%81%ED%81%AC%20(Creating%20a%20permanent%20link%20to%20a%20code%20snippet).md) [![](<list icon.jpg>)](#markdown)
 
-리포지토리에 사용자 지정 자동 링크 참조가 구성된 경우 JIRA 문제 또는 Zendesk 티켓과 같은 외부 리소스에 대한 참조가 단축된 링크로 변환됩니다. 리포지토리에서 사용할 수 있는 자동 링크를 알아보려면 리포지토리에 대한 관리자 권한이 있는 사람에게 문의하세요. 자세한 내용은 [외부 리소스를 참조하도록 자동 링크 구성](/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources)을(를) 참조하세요.
+파일 또는 끌어오기 요청의 특정 버전에서 특정 줄 또는 코드 줄 범위에 대한 영구 링크를 만들 수 있습니다.
+
+## 코드에 연결 (Linking to code)
+
+이 유형의 고정 링크는 원래 출처인 리포지토리에서만 코드 조각으로 렌더링됩니다. 다른 리포지토리에서 고정 링크 코드 조각은 URL로 렌더링됩니다. 이는 Markdown 파일에서만 작동하지 않으며 주석에서만 작동합니다.
+
+![Screenshot of an issue comment. A code snippet has a header that lists the file name and line numbers, and a body that lists the code on those lines.](https://docs.github.com/assets/cb-68457/mw-1440/images/help/repository/rendered-code-snippet.webp)
+
+> [!TIP]  
+> 전체 파일에 대한 고유 링크를 만들려면 [파일에 대한 영구 링크 가져오기](/repositories/working-with-files/using-files/getting-permanent-links-to-files)을(를) 참조하세요.
+
+1. GitHub에서 리포지토리의 기본 페이지로 이동합니다.
+
+1. 연결할 코드를 찾습니다.
+
+    * 파일에서 코드에 연결하려면 해당 파일로 이동합니다.
+    * 끌어오기 요청에서 코드에 연결하려면 끌어오기 요청으로 이동하고  **![alt text](<첨부-코드에 대한 영구 링크. diff.jpg>) 변경된 파일**을 클릭합니다. 그런 다음 주석에 포함할 코드가 포함된 파일을 찾아 **보기**를 클릭합니다.
+    To link to code from a pull request, navigate to the pull request and click **{% octicon "diff" aria-hidden="true" %} Files changed**. Then, browse to the file that contains the code you want include in your comment, and click **View**.
+
+1. 한 줄 또는 범위를 선택할지 여부를 선택합니다.
+
+   * 한 줄의 코드를 선택하려면 줄 번호를 클릭하여 줄을 강조 표시합니다.
+   * 코드 범위를 선택하려면 범위의 첫 번째 줄 수를 클릭하여 코드 줄을 강조 표시합니다. 그런 다음 코드 범위의 마지막 줄 위로 마우스를 가져가고 <kbd>Shift</kbd> 키를 누른 다음 줄 번호를 클릭하여 범위를 강조 표시합니다.
+
+1. 줄의 왼쪽 또는 줄의 범위에서 ![alt text](<첨부-코드에 대한 영구 링크. kebab-horizontal.jpg>)을(를) 클릭합니다. 드롭다운 메뉴에서 **고정 링크 복사**를 클릭합니다.
+
+   ![Screenshot of a file, with 8 lines selected. To the left of the first selected line, a button labeled with a kebab icon is outlined in dark orange.](https://docs.github.com/assets/cb-40280/mw-1440/images/help/repository/open-new-issue-specific-line.webp)
+
+1. 코드 조각에 연결하려는 대화로 이동합니다.
+
+1. 고정 링크를 주석에 붙여넣고 **주석**을 클릭합니다.
+
+## Markdown에 연결 (Linking to Markdown)
+
+Markdown 렌더링 없이 Markdown 파일을 로드하여 Markdown 파일의 특정 줄에 연결할 수 있습니다. 렌더링하지 않고 Markdown 파일을 로드하려면 파일의 URL 끝에 있는 `?plain=1` 매개 변수를 사용할 수 있습니다. 예들 들어 `github.com/<organization>/<repository>/blob/<commit_SHA>/README.md?plain=1`입니다.
+
+코드에서와 동일한 방식으로 Markdown 파일의 특정 줄에 연결할 수 있습니다. URL 끝에 줄 번호 또는 숫자와 함께 `#L`을 추가합니다. 예를 들어 `github.com/<organization>/<repository>/blob/<commit_SHA>/README.md?plain=1#L14`는 일반 README.md 파일에서 줄 14를 강조 표시합니다.
