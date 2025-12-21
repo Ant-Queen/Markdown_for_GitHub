@@ -364,3 +364,10 @@ Markdown 렌더링 없이 Markdown 파일을 로드하여 Markdown 파일의 특
 ## 이슈 또는 끌어오기 요청을 중복으로 표시 (Marking an issue or pull request as a duplicate)
 
 이슈 또는 끌어오기 요청을 중복으로 표시하려면 “Duplicate of”를 입력한 다음 새 주석 본문에 중복되는 이슈 또는 끌어오기 요청 번호를 입력합니다. 자세한 내용은 [문제 또는 끌어오기 요청을 중복으로 표시](https://docs.github.com/ko/issues/tracking-your-work-with-issues/marking-issues-or-pull-requests-as-a-duplicate)을(를) 참조하세요.
+
+dd
+
+<!-- https://github.com/Ant-Queen/Markdown_for_GitHub/blob/6a35d742275c5f98847460a03db99aa0377caa1e/example.py#L4-L5 -->
+
+
+https://github.com/Ant-Queen/Markdown_for_GitHub/blob/6a35d742275c5f98847460a03db99aa0377caa1e/example.py#L4-L5
