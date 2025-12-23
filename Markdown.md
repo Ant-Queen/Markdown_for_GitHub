@@ -161,18 +161,12 @@ text
 섹션을 가리키는 사용자 지정 앵커 만들기
 
 ```markdown
-a  
+text  
 <a id="my-custom-anchor-point"></a>
-b
+text  
 
 [A link to that custom anchor](#my-custom-anchor-point)
 ```
-
-a  
-<a id="my-custom-anchor-point"></a>
-b
-
-[A link to that custom anchor](#my-custom-anchor-point)
 
 <br/>
 <br/>
@@ -190,15 +184,31 @@ b
 <br/>
 <br/>
 
-## [목록 (Lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/12.%20%EB%AA%A9%EB%A1%9D%20(Lists).md) [![](<list icon.jpg>)](#markdown)
+# [테이블로 구성 정보 (Organizing information with tables)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/31.%20%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B5%AC%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20(Organizing%20information%20with%20tables).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
+|  |  |
+|---|---|
+|  |  |
+|  |  |
+```
+
+```markdown
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+```
+
+## [목록 (Lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/12.%20%EB%AA%A9%EB%A1%9D%20(Lists).md) [![](<list icon.jpg>)](#markdown)
+행 앞에 `숫자` 또는 `-`, `*`, `+`을(를) 입력
+```markdown
 1. First list item
-  - First nested list item
-    - Second nested list item
+   - First nested list item
+     - Second nested list item
 2. Second list item
-  - First nested list item
-    - Second nested list item
+   - First nested list item
+     - Second nested list item
 ```
 
 ## [작업 목록 (Task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/13.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20(Task%20lists).md) [![](<list icon.jpg>)](#markdown)
@@ -233,22 +243,6 @@ b
 <br/>
 <br/>
 <br/>
-
-# [테이블로 구성 정보 (Organizing information with tables)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/31.%20%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B5%AC%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20(Organizing%20information%20with%20tables).md) [![](<list icon.jpg>)](#markdown)
-
-```markdown
-|  |  |
-|---|---|
-|  |  |
-|  |  |
-```
-
-```markdown
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
-```
 
 <br/>
 <br/>
@@ -304,12 +298,3 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 # [작업 목록 정보 (About task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/38.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20%EC%A0%95%EB%B3%B4%20(About%20task%20lists).md) [![](<list icon.jpg>)](#markdown)
 > for GitHub  
 깃허브 이슈에서 작업목록 사용
-
-
-
-https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#%EB%A7%81%ED%81%AC-links
-
-https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#링크-links
-
-https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#my-custom-anchor-point
-
