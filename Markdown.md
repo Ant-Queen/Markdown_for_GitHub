@@ -32,7 +32,7 @@
 [코드 블록 만들기 및 강조 표시](#코드-블록-만들기-및-강조-표시-creating-and-highlighting-code-blocks)  
 [다이어그램 만들기](#다이어그램-만들기-creating-diagrams)  
 [수학 식 작성](#수학-식-작성-writing-mathematical-expressions)  
-[자동 링크된 참조 및 URL](#자동-링크된-참조-및-url-autolinked-references-and-urls)  
+[작업 목록 정보](#작업-목록-정보-about-task-lists)
 
 |  |  |
 |---|---|
