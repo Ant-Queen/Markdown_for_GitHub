@@ -311,5 +311,5 @@ https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#%EB%A7%81
 
 https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#링크-links
 
-https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md##my-custom-anchor-point
+https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#my-custom-anchor-point
 
