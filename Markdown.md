@@ -63,27 +63,6 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 | <sub>아래 첨자</sub> | `<sub> </sub>` | `<sub>아래 첨자</sub>` |
 | <span style="color:gray">회색글씨</span> | `<span style="color:gray"> </span>` | `<span style="color:gray">회색 글씨</span>` |
 
-
-| 색상 이름 | 미리보기 |
-|-----------|----------|
-| Black     | 🖤 |
-| White     | 🤍 |
-| Gray      | ⚪ |
-| Red       | ❤️ |
-| Blue      | 💙 |
-| Green     | 💚 |
-| Yellow    | 💛 |
-| Orange    | 🟧 |
-| Pink      | 🌸 |
-| Purple    | 💜 |
-| Brown     | 🟫 |
-| Cyan/Aqua | 🟦 |
-| Lime      | 🟩 |
-| Navy      | 🔵 |
-| Teal      | 🟦 |
-| Silver    | ⚪ |
-| Gold      | ⭐ |
-
 | 색상 이름 | 미리보기 |
 |-----------|----------|
 | Black     | <span style="color:Black">Black</span> |
