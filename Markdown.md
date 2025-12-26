@@ -54,11 +54,57 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 | 스타일 | 구문 | 예시 |
 |---|---|---|
 | _기울임꼴_ | `_ _` (or `* *`)  | `_기울임꼴_` |
-| **굵은** | `** **` (or `__ __`) | `**굵은**` |
+| **굵은글씨** | `** **` (or `__ __`) | `**굵은글씨**` |
 | <ins>밑줄</ins> | `<ins> </ins>` | `<ins>밑줄</ins>` |
 | ~~취소선~~ | `~~ ~~` (일부 `~ ~`)| `~~취소선~~` |
+| <big>큰글씨</big> | `<big> </big>` | `<big>큰 글씨</big>` |
+| <small> 작은글씨 </small> | `<small> </small>` | `<small>작은 글씨</small>` |
 | <sup>위 첨자</sup> | `<sup> </sup>` | `<sup>위 첨자</sup>` |
 | <sub>아래 첨자</sub> | `<sub> </sub>` | `<sub>아래 첨자</sub>` |
+| <span style="color:gray">회색글씨</span> | `<span style="color:gray"> </span>` | `<span style="color:gray">회색 글씨</span>` |
+
+
+| 색상 이름 | 미리보기 |
+|-----------|----------|
+| Black     | 🖤 |
+| White     | 🤍 |
+| Gray      | ⚪ |
+| Red       | ❤️ |
+| Blue      | 💙 |
+| Green     | 💚 |
+| Yellow    | 💛 |
+| Orange    | 🟧 |
+| Pink      | 🌸 |
+| Purple    | 💜 |
+| Brown     | 🟫 |
+| Cyan/Aqua | 🟦 |
+| Lime      | 🟩 |
+| Navy      | 🔵 |
+| Teal      | 🟦 |
+| Silver    | ⚪ |
+| Gold      | ⭐ |
+
+| 색상 이름 | 미리보기 |
+|-----------|----------|
+| Black     | <span style="color:Black">Black</span> |
+| White     | <span style="color:White; background-color:gray">White</span> |
+| Gray      | <span style="color:Gray">Gray</span> |
+| Red       | <span style="color:Red">Red</span> |
+| Blue      | <span style="color:Blue">Blue</span> |
+| Green     | <span style="color:Green">Green</span> |
+| Yellow    | <span style="color:Yellow">Yellow</span> |
+| Orange    | <span style="color:Orange">Orange</span> |
+| Pink      | <span style="color:Pink">Pink</span> |
+| Purple    | <span style="color:Purple">Purple</span> |
+| Brown     | <span style="color:Brown">Brown</span> |
+| Cyan/Aqua | <span style="color:Aqua">Aqua</span> |
+| Lime      | <span style="color:Lime">Lime</span> |
+| Navy      | <span style="color:Navy">Navy</span> |
+| Teal      | <span style="color:Teal">Teal</span> |
+| Silver    | <span style="color:Silver">Silver</span> |
+| Gold      | <span style="color:Gold">Gold</span> |
+
+
 
 ## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
 
