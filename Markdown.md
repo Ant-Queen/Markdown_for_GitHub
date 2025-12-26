@@ -24,46 +24,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-<br/>
-<br/>
-<br/>
-
-
-
-
-
-
- 
-
-
-
-
-
-<br/>
-<br/>
-<br/>
-
-
-
-
 [축소된 섹션을 사용하여 정보 구성](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections)  
 [다이어그램 만들기](#다이어그램-만들기-creating-diagrams)  
 [수학 식 작성](#수학-식-작성-writing-mathematical-expressions)  
 [작업 목록 정보](#작업-목록-정보-about-task-lists)
-
-|  |  |
-|---|---|
-|  |  |
-|  |  |
 
 ## [Markdown 서식 무시 (Ignoring Markdown formatting)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/23.%20Markdown%20%EC%84%9C%EC%8B%9D%20%EB%AC%B4%EC%8B%9C%20(Ignoring%20Markdown%20formatting).md) [![](<list icon.jpg>)](#markdown)
 
@@ -87,14 +51,14 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 
 ## [텍스트 스타일 지정 (Styling text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/02.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%8A%A4%ED%83%80%EC%9D%BC%20%EC%A7%80%EC%A0%95%20(Styling%20text).md) [![](<list icon.jpg>)](#markdown)
 
-| 스타일 | 구문 | 예시 | 출력 |
-| --- | --- | --- | --- |
-| 이탤릭체 | `_ _` (or `* *`)  | `_기울임꼴_` | _기울임꼴_ |
-| 굵게 | `** **` (or `__ __`) | `**굵은**` | **굵은** |
-| 밑줄 | `<ins> </ins>` | `<ins>밑줄</ins>` | <ins>밑줄</ins> |
-| 취소선 | `~~ ~~` (일부 `~ ~`)| `~~취소선~~` | ~~취소선~~ |
-| 위 첨자 | `<sup> </sup>` | `<sup>위 첨자</sup>` | <sup>위 첨자</sup> |
-| 아래 첨자 | `<sub> </sub>` | `<sub>아래 첨자</sub>` | <sub>아래 첨자</sub> |
+| 스타일 | 구문 | 예시 |
+|---|---|---|
+| _기울임꼴_ | `_ _` (or `* *`)  | `_기울임꼴_` |
+| **굵은** | `** **` (or `__ __`) | `**굵은**` |
+| <ins>밑줄</ins> | `<ins> </ins>` | `<ins>밑줄</ins>` |
+| ~~취소선~~ | `~~ ~~` (일부 `~ ~`)| `~~취소선~~` |
+| <sup>위 첨자</sup> | `<sup> </sup>` | `<sup>위 첨자</sup>` |
+| <sub>아래 첨자</sub> | `<sub> </sub>` | `<sub>아래 첨자</sub>` |
 
 ## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
 
