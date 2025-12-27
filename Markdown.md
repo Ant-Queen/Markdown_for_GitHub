@@ -5,11 +5,12 @@
 
 # [Markdown](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
+| &nbsp; |  |
 |---|---|
 |   [Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting) | [주석 숨김처리](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments) |
 |   [제목](#제목-headings) | [텍스트 인용](#텍스트-인용-quoting-text) |
 |   [텍스트 스타일](#텍스트-스타일-지정-styling-text) | [코드 인용/블록](#코드-인용-quoting-code--코드-블록-code-block) |
+|  |[축소된 섹션을 사용하여 정보 구성](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) |
 |   [줄 바꿈](#줄-바꿈-line-breaks) |  |
 |   [단락](#단락-paragraphs) | [링크](#링크-links) |
 |   [공백 문자](#공백-문자-whitespace-characters) | [상대 링크](#상대-링크-relative-links) |
@@ -20,6 +21,22 @@
 |   [경고](#경고-alerts) |  |
 |  |  |
 
+
+
+
+| Column1 | Column2 |
+|---------|---------|
+| [Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting) | [주석 숨김처리](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments) |
+| [제목](#제목-headings) | [텍스트 인용](#텍스트-인용-quoting-text) |
+| [텍스트 스타일](#텍스트-스타일-지정-styling-text) | [코드 인용/블록](#코드-인용-quoting-code--코드-블록-code-block) |
+| [줄 바꿈](#줄-바꿈-line-breaks) | [축소된 섹션을 사용하여 정보 구성](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) |
+| [단락](#단락-paragraphs) |   |
+| [공백 문자](#공백-문자-whitespace-characters) | [링크](#링크-links) |
+|   | [상대 링크](#상대-링크-relative-links) |
+| [테이블](#테이블로-구성-정보-organizing-information-with-tables) | [섹션 링크](#섹션-링크-section-links) |
+| [목록](#목록-lists) | [사용자 지정 앵커](#사용자-지정-앵커-custom-anchors) |
+| [작업 목록](#작업-목록-task-lists) |   |
+| [경고](#경고-alerts) | [이미지](#이미지-images) |
 
 
 
@@ -62,28 +79,6 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 | <sup>위 첨자</sup> | `<sup> </sup>` | `<sup>위 첨자</sup>` |
 | <sub>아래 첨자</sub> | `<sub> </sub>` | `<sub>아래 첨자</sub>` |
 | <span style="color:gray">회색글씨</span> | `<span style="color:gray"> </span>` | `<span style="color:gray">회색 글씨</span>` |
-
-| 색상 이름 | 미리보기 |
-|-----------|----------|
-| Black     | <span style="color:Black">Black</span> |
-| White     | <span style="color:White; background-color:gray">White</span> |
-| Gray      | <span style="color:Gray">Gray</span> |
-| Red       | <span style="color:Red">Red</span> |
-| Blue      | <span style="color:Blue">Blue</span> |
-| Green     | <span style="color:Green">Green</span> |
-| Yellow    | <span style="color:Yellow">Yellow</span> |
-| Orange    | <span style="color:Orange">Orange</span> |
-| Pink      | <span style="color:Pink">Pink</span> |
-| Purple    | <span style="color:Purple">Purple</span> |
-| Brown     | <span style="color:Brown">Brown</span> |
-| Cyan/Aqua | <span style="color:Aqua">Aqua</span> |
-| Lime      | <span style="color:Lime">Lime</span> |
-| Navy      | <span style="color:Navy">Navy</span> |
-| Teal      | <span style="color:Teal">Teal</span> |
-| Silver    | <span style="color:Silver">Silver</span> |
-| Gold      | <span style="color:Gold">Gold</span> |
-
-
 
 ## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
 
