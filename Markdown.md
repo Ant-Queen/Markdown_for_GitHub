@@ -4,23 +4,20 @@
 
 # [Markdown](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |
-|---|---|
-| [Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting) | [주석 숨김처리](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments) |
-| [제목](#제목-headings) | [텍스트 인용](#텍스트-인용-quoting-text) |
-| [텍스트 스타일](#텍스트-스타일-지정-styling-text) | [코드 인용/블록](#코드-인용-quoting-code--코드-블록-code-block) |
-| [줄 바꿈](#줄-바꿈-line-breaks) |[축소된 섹션을 사용하여 정보 구성](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) |
-| [단락](#단락-paragraphs) | [경고](#경고-alerts) |
-| [공백 문자](#공백-문자-whitespace-characters) |  |
-|  | [링크](#링크-links) |
-| [테이블](#테이블로-구성-정보-organizing-information-with-tables) | [상대 링크](#상대-링크-relative-links) |
-| [목록](#목록-lists) | [섹션 링크](#섹션-링크-section-links) |
-| [작업 목록](#작업-목록-task-lists) | [사용자 지정 앵커](#사용자-지정-앵커-custom-anchors) |
-| [작업 목록 정보](#작업-목록-정보-about-task-lists) |  |
-|  | [이미지](#이미지-images) |
-| [수학 식 작성](#수학-식-작성-writing-mathematical-expressions) |  |
-| [다이어그램 만들기](#다이어그램-만들기-creating-diagrams) |  |
-
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  |  |
+|---|---|---|
+| [Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting) | [주석 숨김처리](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments) | [수학 식 작성](#수학-식-작성-writing-mathematical-expressions) |
+| [제목](#제목-headings) | [텍스트 인용](#텍스트-인용-quoting-text) | [다이어그램 만들기](#다이어그램-만들기-creating-diagrams) |
+| [텍스트 스타일](#텍스트-스타일-지정-styling-text) | [코드 인용/블록](#코드-인용-quoting-code--코드-블록-code-block) |  |
+| [줄 바꿈](#줄-바꿈-line-breaks) |[축소된 섹션을 사용하여 정보 구성](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) |  |
+| [단락](#단락-paragraphs) | [경고](#경고-alerts) |  |
+| [공백 문자](#공백-문자-whitespace-characters) |  |  |
+|  | [링크](#링크-links) |  |
+| [테이블](#테이블로-구성-정보-organizing-information-with-tables) | [상대 링크](#상대-링크-relative-links) |  |
+| [목록](#목록-lists) | [섹션 링크](#섹션-링크-section-links) |  |
+| [작업 목록](#작업-목록-task-lists) | [사용자 지정 앵커](#사용자-지정-앵커-custom-anchors) |  |
+| [작업 목록 정보](#작업-목록-정보-about-task-lists) |  |  |
+|  | [이미지](#이미지-images) |  |
 
 
 ## [Markdown 서식 무시 (Ignoring Markdown formatting)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/23.%20Markdown%20%EC%84%9C%EC%8B%9D%20%EB%AC%B4%EC%8B%9C%20(Ignoring%20Markdown%20formatting).md) [![](<list icon.jpg>)](#markdown)
@@ -92,7 +89,7 @@ Will span two lines
 <br/>
 <br/>
 
-# [테이블로 구성 정보 (Organizing information with tables)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/31.%20%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B5%AC%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20(Organizing%20information%20with%20tables).md) [![](<list icon.jpg>)](#markdown)
+## [테이블로 구성 정보 (Organizing information with tables)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/31.%20%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B5%AC%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20(Organizing%20information%20with%20tables).md) [![](<list icon.jpg>)](#markdown)
 
 ```markdown
 |  |  |
@@ -128,7 +125,7 @@ Will span two lines
 - [x] 
 ```
 
-# [작업 목록 정보 (About task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/38.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20%EC%A0%95%EB%B3%B4%20(About%20task%20lists).md) [![](<list icon.jpg>)](#markdown)
+## [작업 목록 정보 (About task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/38.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20%EC%A0%95%EB%B3%B4%20(About%20task%20lists).md) [![](<list icon.jpg>)](#markdown)
 > for GitHub  
 깃허브 이슈에서 작업목록 사용
 
@@ -159,6 +156,35 @@ Will span two lines
 text
 ```
 ````
+
+## [축소된 섹션을 사용하여 정보 구성 (Organizing information with collapsed sections)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/32.%20%EC%B6%95%EC%86%8C%EB%90%9C%20%EC%84%B9%EC%85%98%20(Organizing%20information%20with%20collapsed%20sections).md) [![](<list icon.jpg>)](#markdown)
+
+````markdown
+<details open>
+<summary>Tips for collapsed sections</summary>
+
+</details>
+````
+
+## [경고 (Alerts)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/21.%20%EA%B2%BD%EA%B3%A0%20(Alerts).md) [![](<list icon.jpg>)](#markdown)
+> for GitHub  
+
+```markdown
+> [!NOTE]  
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]  
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]  
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]  
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]  
+> Advises about risks or negative outcomes of certain actions.
+```
 
 <br/>
 <br/>
@@ -216,51 +242,7 @@ text
 <br/>
 <br/>
 
-
-<br/>
-<br/>
-<br/>
-
-# [축소된 섹션을 사용하여 정보 구성 (Organizing information with collapsed sections)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/32.%20%EC%B6%95%EC%86%8C%EB%90%9C%20%EC%84%B9%EC%85%98%20(Organizing%20information%20with%20collapsed%20sections).md) [![](<list icon.jpg>)](#markdown)
-
-````markdown
-<details open>
-<summary>Tips for collapsed sections</summary>
-
-</details>
-````
-
-## [경고 (Alerts)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/21.%20%EA%B2%BD%EA%B3%A0%20(Alerts).md) [![](<list icon.jpg>)](#markdown)
-> for GitHub  
-
-```markdown
-> [!NOTE]  
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]  
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]  
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]  
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]  
-> Advises about risks or negative outcomes of certain actions.
-```
-
-<br/>
-<br/>
-<br/>
-
-# [다이어그램 만들기 (Creating diagrams)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/34.%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20(Creating%20diagrams).md) [![](<list icon.jpg>)](#markdown)
-
-<br/>
-<br/>
-<br/>
-
-# [수학 식 작성 (Writing mathematical expressions)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/35.%20%EC%88%98%ED%95%99%20%EC%8B%9D%20(Writing%20mathematical%20expressions).md) [![](<list icon.jpg>)](#markdown)
+## [수학 식 작성 (Writing mathematical expressions)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/35.%20%EC%88%98%ED%95%99%20%EC%8B%9D%20(Writing%20mathematical%20expressions).md) [![](<list icon.jpg>)](#markdown)
 
 <code>$\`</code>
 
@@ -269,6 +251,8 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 ```
 
 This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
+
+## [다이어그램 만들기 (Creating diagrams)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/34.%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20(Creating%20diagrams).md) [![](<list icon.jpg>)](#markdown)
 
 <br/>
 <br/>
