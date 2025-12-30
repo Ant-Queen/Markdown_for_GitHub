@@ -19,10 +19,7 @@
 | [작업 목록 정보](#작업-목록-정보-about-task-lists) |  |  |
 |  | [이미지](#이미지-images) |  |
 
-
-
 ## [Markdown 서식 무시 (Ignoring Markdown formatting)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/23.%20Markdown%20%EC%84%9C%EC%8B%9D%20%EB%AC%B4%EC%8B%9C%20(Ignoring%20Markdown%20formatting).md) [![](<list icon.jpg>)](#markdown)
-
 
 문자 앞에 `\`를 사용
 
