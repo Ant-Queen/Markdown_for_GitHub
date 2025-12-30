@@ -8,7 +8,7 @@
 |---|---|---|
 | [Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting) | [주석 숨김처리](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments) | [수학 식](#수학-식-작성-writing-mathematical-expressions) |
 | [제목](#제목-headings) | [텍스트 인용](#텍스트-인용-quoting-text) | [다이어그램](#다이어그램-만들기-creating-diagrams) |
-| [텍스트 스타일](#텍스트-스타일-지정-styling-text) | [코드 인용/블록](#코드-인용-quoting-code--코드-블록-code-block) |  |
+| [텍스트 스타일](#텍스트-스타일-지정-styling-text) | [코드 인용/블록](#코드-인용-quoting-code--코드-블록-code-block) | [수평선](#수평선) |
 | [줄 바꿈](#줄-바꿈-line-breaks) |[섹션 축소](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) |  |
 | [단락](#단락-paragraphs) | [경고](#경고-alerts) |  |
 | [공백 문자](#공백-문자-whitespace-characters) |  |  |
@@ -18,6 +18,7 @@
 | [작업 목록](#작업-목록-task-lists) | [사용자 지정 앵커](#사용자-지정-앵커-custom-anchors) |  |
 | [작업 목록 정보](#작업-목록-정보-about-task-lists) |  |  |
 |  | [이미지](#이미지-images) |  |
+
 
 
 ## [Markdown 서식 무시 (Ignoring Markdown formatting)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/23.%20Markdown%20%EC%84%9C%EC%8B%9D%20%EB%AC%B4%EC%8B%9C%20(Ignoring%20Markdown%20formatting).md) [![](<list icon.jpg>)](#markdown)
@@ -254,3 +255,7 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 <br/>
 <br/>
 <br/>
+
+## 수평선 [![](<list icon.jpg>)](#markdown)
+
+`---`, `***`, `___`
