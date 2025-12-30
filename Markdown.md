@@ -48,11 +48,8 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 | **굵은글씨** | `** **` (or `__ __`) | `**굵은글씨**` |
 | <ins>밑줄</ins> | `<ins> </ins>` | `<ins>밑줄</ins>` |
 | ~~취소선~~ | `~~ ~~` (일부 `~ ~`)| `~~취소선~~` |
-| <big>큰글씨</big> | `<big> </big>` | `<big>큰 글씨</big>` |
-| <small> 작은글씨 </small> | `<small> </small>` | `<small>작은 글씨</small>` |
 | <sup>위 첨자</sup> | `<sup> </sup>` | `<sup>위 첨자</sup>` |
 | <sub>아래 첨자</sub> | `<sub> </sub>` | `<sub>아래 첨자</sub>` |
-| <span style="color:gray">회색글씨</span> | `<span style="color:gray"> </span>` | `<span style="color:gray">회색 글씨</span>` |
 
 ## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](<list icon.jpg>)](#markdown)
 
