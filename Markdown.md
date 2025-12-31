@@ -72,7 +72,7 @@ This example
 Will span two lines
 </pre>
 
-## 수평선 [![](<list icon.jpg>)](#markdown)
+## [수평선 (Horizontal Rule)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/52.%20%EC%88%98%ED%8F%89%EC%84%A0.md) [![](<list icon.jpg>)](#markdown)
 
 `---`, `***`, `___`
 
