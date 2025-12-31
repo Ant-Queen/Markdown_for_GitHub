@@ -74,7 +74,9 @@ Will span two lines
 
 ## [수평선 (Horizontal Rule)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/52.%20%EC%88%98%ED%8F%89%EC%84%A0.md) [![](<list icon.jpg>)](#markdown)
 
-`---`, `***`, `___`
+`***`, `___`, `---`
+
+```markdown
 
 ## [공백 문자 (Whitespace characters)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](<list icon.jpg>)](#markdown)
 
