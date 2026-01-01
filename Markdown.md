@@ -11,7 +11,7 @@
 | [텍스트 스타일](#텍스트-스타일-지정-styling-text) | [코드 인용/블록](#코드-인용-quoting-code--코드-블록-code-block) |  |
 | [줄 바꿈](#줄-바꿈-line-breaks) |[섹션 축소](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) |  |
 | [단락](#단락-paragraphs) | [경고](#경고-alerts) |  |
-| [수평선](#수평선) |  |  |
+| [수평선](#수평선-horizontal-rule) |  |  |
 | [공백 문자](#공백-문자-whitespace-characters) | [링크](#링크-links) |  |
 |  | [상대 링크](#상대-링크-relative-links) |  |
 | [테이블](#테이블로-구성-정보-organizing-information-with-tables) | [섹션 링크](#섹션-링크-section-links) |  |
@@ -75,8 +75,6 @@ Will span two lines
 ## [수평선 (Horizontal Rule)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/52.%20%EC%88%98%ED%8F%89%EC%84%A0.md) [![](<list icon.jpg>)](#markdown)
 
 `***`, `___`, `---`
-
-```markdown
 
 ## [공백 문자 (Whitespace characters)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](<list icon.jpg>)](#markdown)
 
