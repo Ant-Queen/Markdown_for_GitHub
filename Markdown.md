@@ -59,7 +59,7 @@ Will span two lines
 
 줄 끝에 HTML 단일 줄 바꿈 태그를 포함
 ```markdown
-This example<br/>
+This example<br>
 Will span two lines
 ```
 
@@ -84,9 +84,9 @@ Will span two lines
 `&#x2004;`  
 `&nbsp;`  
 
-<br/>
-<br/>
-<br/>
+<br>
+<br>
+<br>
 
 ## [테이블로 구성 정보 (Organizing information with tables)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/31.%20%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B5%AC%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20(Organizing%20information%20with%20tables).md) [![](<list icon.jpg>)](#markdown)
 
@@ -128,9 +128,9 @@ Will span two lines
 > for GitHub  
 깃허브 이슈에서 작업목록 사용
 
-<br/>
-<br/>
-<br/>
+<br>
+<br>
+<br>
 
 ## [주석이 있는 콘텐츠 숨기기 (Hiding content with comments)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/22.%20%EC%A3%BC%EC%84%9D%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%88%A8%EA%B8%B0%EA%B8%B0%20(Hiding%20content%20with%20comments).md) [![](<list icon.jpg>)](#markdown)
 
@@ -185,9 +185,9 @@ text
 > Advises about risks or negative outcomes of certain actions.
 ```
 
-<br/>
-<br/>
-<br/>
+<br>
+<br>
+<br>
 
 ## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md) [![](<list icon.jpg>)](#markdown)
 
@@ -225,9 +225,9 @@ text
 [A link to that custom anchor](#my-custom-anchor-point)
 ```
 
-<br/>
-<br/>
-<br/>
+<br>
+<br>
+<br>
 
 ## [이미지 (Images)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/11.%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20(Images).md) [![](<list icon.jpg>)](#markdown)
 
@@ -237,9 +237,9 @@ text
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)`  
 ```
 
-<br/>
-<br/>
-<br/>
+<br>
+<br>
+<br>
 
 ## [수학 식 작성 (Writing mathematical expressions)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/35.%20%EC%88%98%ED%95%99%20%EC%8B%9D%20(Writing%20mathematical%20expressions).md) [![](<list icon.jpg>)](#markdown)
 
@@ -253,7 +253,7 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 ## [다이어그램 만들기 (Creating diagrams)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/34.%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20(Creating%20diagrams).md) [![](<list icon.jpg>)](#markdown)
 
-<br/>
-<br/>
-<br/>
+<br>
+<br>
+<br>
 
