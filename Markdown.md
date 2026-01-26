@@ -8,7 +8,7 @@
 | [Markdown 서식 무시](#markdown-서식-무시-ignoring-markdown-formatting) | [주석 숨김처리](#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments) | [수학 식](#수학-식-작성-writing-mathematical-expressions) |
 | [제목](#제목-headings) | [텍스트 인용](#텍스트-인용-quoting-text) | [다이어그램](#다이어그램-만들기-creating-diagrams) |
 | [텍스트 스타일](#텍스트-스타일-지정-styling-text) | [코드 인용/블록](#코드-인용-quoting-code--코드-블록-code-block) | |
-| [줄 바꿈](#줄-바꿈-line-breaks) | [섹션 축소](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) | |
+| [줄 바꿈](#줄-바꿈-line-breaks) | [섹션 축소](#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) | 이모지 |
 | [단락](#단락-paragraphs) | [경고](#경고-alerts) | |
 | [수평선](#수평선-horizontal-rule) | | |
 | [공백 문자](#공백-문자-whitespace-characters) | [링크](#링크-links) | |
