@@ -265,3 +265,10 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 <br>
 
 ## [이모지 (emojis)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/18.%20%EC%9D%B4%EB%AA%A8%EC%A7%80%20%EC%82%AC%EC%9A%A9%20(Using%20emojis).md) [![](</images/list icon.jpg>)](#markdown)
+
+- [Get Emoji](https://getemoji.com/)
+
+💫🌟⭐️✨⚡️❄️🌈💥🔥💧🥇🥈🥉🏅🏵🏵🚨🚥🚦🚧📱📲💻⌨️🖥🖱📞☎️💡💸💵💰🪙🛠⚒⚙️🔑🗝🪟🏷📜📃📄📑🗓📆📅📁📂🗂📋🔍🔎🔏🔒🔓➡️🟰✩✹♞
+-
+
+## ffff
