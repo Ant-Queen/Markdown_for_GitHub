@@ -268,8 +268,13 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 - [Get Emoji](https://getemoji.com/)
 
-# ⚙️🛠🎨
+# ☰⚙️🎨⭕️❌
 
 # 💫⭐️✨⚡️🔥💧🚨🚧📱💻⌨️🖱📞💡💵💰🪙🔑🪟📃📄📆📁📂📋🔍🔎🔏🔒🔓
 
-# ➡️✅❌❗️❓💬🔔🎉🧩
+# ❗️❓➡️✅💬🔔🎉📋🛠💠
+
+> [!NOTE]  
+> 이모지는 아니지만 메뉴를 표현할 때 ☰(햄버거 메뉴) 아이콘을 사용할 수 있습니다.
+
+# ☰
