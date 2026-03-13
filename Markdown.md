@@ -209,7 +209,7 @@ text
 동일 레포지토리 내의 다른 파일로 연결
 
 ```markdown
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+[Contribution guidelines for this project](/docs/CONTRIBUTING.md)
 ```
 
 ## [섹션 링크 (Section links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/07.%20%EC%84%B9%EC%85%98%20%EB%A7%81%ED%81%AC%20(Section%20links).md) [![](</images/list icon.jpg>)](#markdown)
