@@ -216,6 +216,10 @@ text
 
 해당 파일 내의 섹션으로 연결
 
+- images/ 와 ./images/ → 현재 폴더 기준
+- ../images/ → 상위 폴더 기준
+- /images/ → 루트 기준
+
 ```markdown
 [섹션 링크로 이동](#섹션-링크-section-links)
 ```
