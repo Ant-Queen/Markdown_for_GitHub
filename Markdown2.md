@@ -14,31 +14,10 @@
 
 |  |  |  |
 |---|---|---|
-| 줄 바꿈 | ``` markdown
- 내용
- ``` | 줄 끝에 공백 두 개 or \<br> 태그 |
+| 줄 바꿈 | `  ` or \<br> | 줄 끝에 공백 두 개 or \<br> 태그 |
 | 제목 | # | dd |
 
-``` markdown
- <br>
- ```
 
-| 구분 | 예시 |
-|---|---|
-| 코드블록 | ```python print("Hello") ``` |
-
-```python print("Hello") ```
-
-| 구분 | 예시 |
-|---|---|
-| 코드블록 | `\`\`\`python print("Hello") \`\`\` |
-
-| 구분 | 예시 |
-|---|---|
-| 코드블록 | <pre><code class="language-python">print("Hello")</code></pre> |
-
-<pre><code class="language-python">print("Hello World")</code></pre>
-<pre><code class="language-bash">echo "Hello World"</code></pre>
 
 ## [단락 (Paragraphs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/19.%20%EB%8B%A8%EB%9D%BD%20(Paragraphs).md) [![](</images/list icon.jpg>)](#markdown)
 
