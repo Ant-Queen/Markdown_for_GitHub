@@ -1,10 +1,5 @@
 # [Markdown 서식 요약](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
-|  |  |
-|---|---|
-| 서식 무시 | 문자 앞에 `\`를 사용 |
-| 제목 | # |
-
 | 스타일 | 구문 | 예시 |
 | --- | --- | --- |
 | _기울임꼴_ | `_ _` (or `* *`) | `_기울임꼴_` |
@@ -14,66 +9,33 @@
 
 |  |  |  |
 |---|---|---|
+| 서식 무시 | `\` | 문자 앞에 사용|
+| 제목 | # |  |
 | 줄 바꿈 | `  ` or \<br> | 줄 끝에 공백 두 개 or \<br> 태그 |
+
 | 제목 | # | dd |
-
-
-
-## [단락 (Paragraphs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/19.%20%EB%8B%A8%EB%9D%BD%20(Paragraphs).md) [![](</images/list icon.jpg>)](#markdown)
-
-텍스트 줄 사이에 빈 줄을 둠
-
-<pre>
-This example
-
-Will span two lines
-</pre>
-
-## [수평선 (Horizontal Rule)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/52.%20%EC%88%98%ED%8F%89%EC%84%A0.md) [![](</images/list icon.jpg>)](#markdown)
-
-`***`, `___`, `---`
-
-## [공백 문자 (Whitespace characters)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](</images/list icon.jpg>)](#markdown)
-
-```markdown
- 
-```
-
-`&#x2004;`  
-`&nbsp;`  
-
-<br>
-<br>
-<br>
-
-## [테이블로 구성 정보 (Organizing information with tables)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/31.%20%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B5%AC%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20(Organizing%20information%20with%20tables).md) [![](</images/list icon.jpg>)](#markdown)
+| 단락 | (빈 줄) | 텍스트 줄 사이에 빈 줄을 둠 |
+| 수평선 | `***`, `___`, `---` |  |
+| 공백문자 | ` ` or `&nbsp;` |  |
+| 작업 목록 | `- [ ] ` and `- [x] ` |  |
 
 ```markdown
 |  |  |
 |---|---|
 |  |  |
 |  |  |
+
+| :---     |   :---:   |     ---: |
 ```
 
 ```markdown
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+ 1. 
+   - 
+     * 
+       + 
+ 2. 
 ```
 
-## [목록 (Lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/12.%20%EB%AA%A9%EB%A1%9D%20(Lists).md) [![](</images/list icon.jpg>)](#markdown)
-
-행 앞에 `숫자` 또는 `-`, `*`, `+`을(를) 입력
-
-```markdown
-1. First list item
-   - First nested list item
-     - Second nested list item
-2. Second list item
-   - First nested list item
-     - Second nested list item
-```
 
 ## [작업 목록 (Task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/13.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20(Task%20lists).md) [![](</images/list icon.jpg>)](#markdown)
 
