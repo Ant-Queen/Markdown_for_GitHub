@@ -152,6 +152,8 @@ Will span two lines
 
 ## [코드 인용 (Quoting code) & 코드 블록 (Code Block)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/04.%20%EC%9D%B8%EC%9A%A9%20%EC%BD%94%EB%93%9C%20(Quoting%20code).md) [![](</images/list icon.jpg>)](#markdown)
 
+[코드 블록](</2. 고급 서식 지정 작업/33. 코드 블록 만들기 및 강조 표시 (Creating and highlighting code blocks).md>)
+
 ````markdown
 `text`
 ````
