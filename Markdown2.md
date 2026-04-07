@@ -37,11 +37,8 @@
 |---|---|
 | 코드블록 | <pre><code class="language-python">print("Hello")</code></pre> |
 
-| 언어   | 예시 코드 |
-|--------|-----------|
-| Python | <pre><code class="language-python">print("Hello World")</code></pre> |
-| Bash   | <pre><code class="language-bash">echo "Hello World"</code></pre>     |
-
+<pre><code class="language-python">print("Hello World")</code></pre>
+<pre><code class="language-bash">echo "Hello World"</code></pre>
 
 ## [단락 (Paragraphs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/19.%20%EB%8B%A8%EB%9D%BD%20(Paragraphs).md) [![](</images/list icon.jpg>)](#markdown)
 
