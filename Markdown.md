@@ -18,7 +18,7 @@
 | [작업 목록](#작업-목록-task-lists) | | |
 | [작업 목록 정보](#작업-목록-정보-about-task-lists) | [이미지](#이미지-images) | |
 
-## [Markdown 서식 무시 (Ignoring Markdown formatting)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/23.%20Markdown%20%EC%84%9C%EC%8B%9D%20%EB%AC%B4%EC%8B%9C%20(Ignoring%20Markdown%20formatting).md) [![](</images/list icon.jpg>)](#markdown)
+## [Markdown 서식 무시 (Ignoring Markdown formatting)](</1. 기본 서식 구문/23. Markdown 서식 무시 (Ignoring Markdown formatting).md>) [![](</images/list icon.jpg>)](#markdown)
 
 문자 앞에 `\`를 사용
 
@@ -26,8 +26,7 @@
 Let's rename \*our-new-project\* to \*our-old-project\*.
 ```
 
-## [제목 (Headings)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/01.%20%EC%A0%9C%EB%AA%A9%20(headings).md) [![](</images/list icon.jpg>)](#markdown)
-
+## [제목 (Headings)](</1. 기본 서식 구문/01. 제목 (headings).md>) [![](</images/list icon.jpg>)](#markdown)
 ```markdown
 # 
 ## 
@@ -37,7 +36,7 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 ###### 
 ```
 
-## [텍스트 스타일 지정 (Styling text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/02.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%8A%A4%ED%83%80%EC%9D%BC%20%EC%A7%80%EC%A0%95%20(Styling%20text).md) [![](</images/list icon.jpg>)](#markdown)
+## [텍스트 스타일 지정 (Styling text)](</1. 기본 서식 구문/02. 텍스트 스타일 지정 (Styling text).md>) [![](</images/list icon.jpg>)](#markdown)
 
 | 스타일 | 구문 | 예시 |
 | --- | --- | --- |

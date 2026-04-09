@@ -1,5 +1,10 @@
 # [Markdown 서식 요약](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
+|  |  |  |
+|---|---|---|
+| 서식 무시 | `\` | 문자 앞에 사용|
+| 제목 | # |  |
+
 | 스타일 | 구문 | 예시 |
 | --- | --- | --- |
 | _기울임꼴_ | `_ _` (or `* *`) | `_기울임꼴_` |
@@ -9,15 +14,12 @@
 
 |  |  |  |
 |---|---|---|
-| 서식 무시 | `\` | 문자 앞에 사용|
-| 제목 | # |  |
 | 줄 바꿈 | `  ` or \<br> | 줄 끝에 공백 두 개 or \<br> 태그 |
-
-| 제목 | # | dd |
 | 단락 | (빈 줄) | 텍스트 줄 사이에 빈 줄을 둠 |
 | 수평선 | `***`, `___`, `---` |  |
 | 공백문자 | ` ` or `&nbsp;` |  |
-| 작업 목록 | `- [ ] ` and `- [x] ` |  |
+
+테이블
 
 ```markdown
 |  |  |
@@ -28,6 +30,8 @@
 | :---     |   :---:   |     ---: |
 ```
 
+목록
+
 ```markdown
  1. 
    - 
@@ -36,36 +40,18 @@
  2. 
 ```
 
+|  |  |  |
+|---|---|---|
+| 작업 목록 | `- [ ] ` <br> `- [x] ` | ex) 깃허브 이슈에서 활용하기 좋음 |
+| 주석 숨김 | `<!--  -->` |  |
+| 텍스트 인용 | `>` |  |
 
-## [작업 목록 (Task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/13.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20(Task%20lists).md) [![](</images/list icon.jpg>)](#markdown)
-
-`- [ ] `
-
+````markdown
 ```markdown
-- [ ] 
-- [x] 
+```python
+
 ```
-
-## [작업 목록 정보 (About task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/38.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20%EC%A0%95%EB%B3%B4%20(About%20task%20lists).md) [![](</images/list icon.jpg>)](#markdown)
-
-> for GitHub  
-깃허브 이슈에서 작업목록 사용
-
-<br>
-<br>
-<br>
-
-## [주석이 있는 콘텐츠 숨기기 (Hiding content with comments)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/22.%20%EC%A3%BC%EC%84%9D%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%88%A8%EA%B8%B0%EA%B8%B0%20(Hiding%20content%20with%20comments).md) [![](</images/list icon.jpg>)](#markdown)
-
-```markdown
-<!--  -->
-```
-
-## [텍스트 인용 (Quoting text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/03.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%9D%B8%EC%9A%A9%20(Quoting%20text).md) [![](</images/list icon.jpg>)](#markdown)
-
-```markdown
-> 
-```
+````
 
 ## [코드 인용 (Quoting code) & 코드 블록 (Code Block)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/04.%20%EC%9D%B8%EC%9A%A9%20%EC%BD%94%EB%93%9C%20(Quoting%20code).md) [![](</images/list icon.jpg>)](#markdown)
 
