@@ -209,6 +209,10 @@ text
 
 동일 레포지토리 내의 다른 파일로 연결
 
+- /images/ → 루트 기준 <!-- 권장 -->
+- images/ 와 ./images/ → 현재 폴더 기준
+- ../images/ → 상위 폴더 기준
+
 ```markdown
 [Contribution guidelines for this project](/docs/CONTRIBUTING.md)
 ```
@@ -216,10 +220,6 @@ text
 ## [섹션 링크 (Section links)](</1. 기본 서식 구문/07. 섹션 링크 (Section links).md>) [![](</images/list icon.jpg>)](#markdown)
 
 해당 파일 내의 섹션으로 연결
-
-- images/ 와 ./images/ → 현재 폴더 기준
-- ../images/ → 상위 폴더 기준
-- /images/ → 루트 기준
 
 ```markdown
 [섹션 링크로 이동](#섹션-링크-section-links)

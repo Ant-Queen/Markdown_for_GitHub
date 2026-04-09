@@ -46,27 +46,21 @@
 | 주석 숨김 | `<!--  -->` |  |
 | 텍스트 인용 | `>` |  |
 
-````markdown
+코드 인용 # 코드 블록
+
+````markdown <!-- 코드 인용 -->
+``
+````
+
+````markdown <!-- 코드 블록 -->
 ```markdown
+```bash
 ```python
 
 ```
 ````
 
-## [코드 인용 (Quoting code) & 코드 블록 (Code Block)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/04.%20%EC%9D%B8%EC%9A%A9%20%EC%BD%94%EB%93%9C%20(Quoting%20code).md) [![](</images/list icon.jpg>)](#markdown)
-
-````markdown
-`text`
-````
-
-````markdown
-```python
-text
-```
-````
-
-## [축소된 섹션을 사용하여 정보 구성 (Organizing information with collapsed sections)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/32.%20%EC%B6%95%EC%86%8C%EB%90%9C%20%EC%84%B9%EC%85%98%20(Organizing%20information%20with%20collapsed%20sections).md) [![](</images/list icon.jpg>)](#markdown)
-
+섹션 축소
 ````markdown
 <details open>
 <summary>Tips for collapsed sections</summary>
@@ -74,10 +68,7 @@ text
 </details>
 ````
 
-## [경고 (Alerts)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/21.%20%EA%B2%BD%EA%B3%A0%20(Alerts).md) [![](</images/list icon.jpg>)](#markdown)
-
-> for GitHub  
-
+경고
 ```markdown
 > [!NOTE]  
 > Useful information that users should know, even when skimming content.
@@ -95,55 +86,15 @@ text
 > Advises about risks or negative outcomes of certain actions.
 ```
 
-<br>
-<br>
-<br>
+|  |  |  |
+|---|---|---|
+| 링크 | `[텍스트](주소)` |  |
+| 상대 링크 | `[텍스트](/경로/파일명)` | 동일 레포지토리 내의 다른 파일로 연결 |
+| 섹션 링크 | `[텍스트](#앵커-이름)` | 해당 파일 내의 특정 섹션으로 연결 |
+| 사용자 지정 앵커 | `<a id="my-custom-anchor-point"></a>` |  |
+| 이미지 | `![대체 텍스트](경로)` |  |
 
-## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md) [![](</images/list icon.jpg>)](#markdown)
-
-`[]()`
-
-```markdown
-[GitHub](https://github.com/)
-```
-
-## [상대 링크 (Relative links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/08.%20%EC%83%81%EB%8C%80%20%EB%A7%81%ED%81%AC%20(Relative%20links).md) [![](</images/list icon.jpg>)](#markdown)
-
-동일 레포지토리 내의 다른 파일로 연결
-
-```markdown
-[Contribution guidelines for this project](/docs/CONTRIBUTING.md)
-```
-
-## [섹션 링크 (Section links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/07.%20%EC%84%B9%EC%85%98%20%EB%A7%81%ED%81%AC%20(Section%20links).md) [![](</images/list icon.jpg>)](#markdown)
-
-해당 파일 내의 섹션으로 연결
-
-- images/ 와 ./images/ → 현재 폴더 기준
-- ../images/ → 상위 폴더 기준
-- /images/ → 루트 기준
-
-```markdown
-[섹션 링크로 이동](#섹션-링크-section-links)
-```
-
-## [사용자 지정 앵커 (Custom anchors)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/09.%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A7%80%EC%A0%95%20%EC%95%B5%EC%BB%A4%20(Custom%20anchors).md) [![](</images/list icon.jpg>)](#markdown)
-
-섹션을 가리키는 사용자 지정 앵커 만들기
-
-```markdown
-text  
-<a id="my-custom-anchor-point"></a>
-text  
-
-[A link to that custom anchor](#my-custom-anchor-point)
-```
-
-<br>
-<br>
-<br>
-
-## [이미지 (Images)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/11.%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20(Images).md) [![](</images/list icon.jpg>)](#markdown)
+## [이미지 (Images)](</1. 기본 서식 구문/11. 이미지 (Images).md>) [![](</images/list icon.jpg>)](#markdown)
 
 `![]()`
 
@@ -155,8 +106,8 @@ text
 <br>
 <br>
 
-## [수학 식 작성 (Writing mathematical expressions)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/35.%20%EC%88%98%ED%95%99%20%EC%8B%9D%20(Writing%20mathematical%20expressions).md) [![](</images/list icon.jpg>)](#markdown)
-
+## [수학 식 작성 (Writing mathematical expressions)](</2. 고급 서식 지정 작업/35. 수학 식 (Writing mathematical expressions).md>) [![](</images/list icon.jpg>)](#markdown)
+[text](<2. 고급 서식 지정 작업/35. 수학 식 (Writing mathematical expressions).md>)
 <code>$\`</code>
 
 ```markdown
@@ -165,13 +116,13 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
 
-## [다이어그램 만들기 (Creating diagrams)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/34.%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20(Creating%20diagrams).md) [![](</images/list icon.jpg>)](#markdown)
+## [다이어그램 만들기 (Creating diagrams)](</2. 고급 서식 지정 작업/34. 다이어그램 만들기 (Creating diagrams).md>) [![](</images/list icon.jpg>)](#markdown)
 
 <br>
 <br>
 <br>
 
-## [이모지 (emojis)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/18.%20%EC%9D%B4%EB%AA%A8%EC%A7%80%20%EC%82%AC%EC%9A%A9%20(Using%20emojis).md) [![](</images/list icon.jpg>)](#markdown)
+## [이모지 (emojis)](</1. 기본 서식 구문/18. 이모지 사용 (Using emojis).md>) [![](</images/list icon.jpg>)](#markdown)
 
 - [Get Emoji](https://getemoji.com/)
 
