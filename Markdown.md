@@ -47,7 +47,7 @@ Let's rename \*our-new-project\* to \*our-old-project\*.
 | <sup>위 첨자</sup> | `<sup> </sup>` | `<sup>위 첨자</sup>` |
 | <sub>아래 첨자</sub> | `<sub> </sub>` | `<sub>아래 첨자</sub>` |
 
-## [줄 바꿈 (Line breaks)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/10.%20%EC%A4%84%20%EB%B0%94%EA%BF%88%20(Line%20breaks).md) [![](</images/list icon.jpg>)](#markdown)
+## [줄 바꿈 (Line breaks)](</1. 기본 서식 구문/10. 줄 바꿈 (Line breaks).md>) [![](</images/list icon.jpg>)](#markdown)
 
 줄 끝에 공백 두 개를 포함
 
@@ -63,7 +63,7 @@ This example<br>
 Will span two lines
 ```
 
-## [단락 (Paragraphs)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/19.%20%EB%8B%A8%EB%9D%BD%20(Paragraphs).md) [![](</images/list icon.jpg>)](#markdown)
+## [단락 (Paragraphs)](</1. 기본 서식 구문/19. 단락 (Paragraphs).md>) [![](</images/list icon.jpg>)](#markdown)
 
 텍스트 줄 사이에 빈 줄을 둠
 
@@ -73,11 +73,11 @@ This example
 Will span two lines
 </pre>
 
-## [수평선 (Horizontal Rule)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/52.%20%EC%88%98%ED%8F%89%EC%84%A0.md) [![](</images/list icon.jpg>)](#markdown)
+## [수평선 (Horizontal Rule)](</3. 추가/52. 수평선.md>) [![](</images/list icon.jpg>)](#markdown)
 
 `***`, `___`, `---`
 
-## [공백 문자 (Whitespace characters)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/3.%20%EC%B6%94%EA%B0%80/51.%20%EA%B3%B5%EB%B0%B1%20%EB%AC%B8%EC%9E%90.md) [![](</images/list icon.jpg>)](#markdown)
+## [공백 문자 (Whitespace characters)](</3. 추가/51. 공백 문자.md>) [![](</images/list icon.jpg>)](#markdown)
 
 ```markdown
  
@@ -90,7 +90,7 @@ Will span two lines
 <br>
 <br>
 
-## [테이블로 구성 정보 (Organizing information with tables)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/31.%20%ED%85%8C%EC%9D%B4%EB%B8%94%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B5%AC%EC%84%B1%EB%90%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20(Organizing%20information%20with%20tables).md) [![](</images/list icon.jpg>)](#markdown)
+## [테이블로 구성 정보 (Organizing information with tables)](</2. 고급 서식 지정 작업/31. 테이블을 사용하여 구성된 데이터 (Organizing information with tables).md>) [![](</images/list icon.jpg>)](#markdown)
 
 ```markdown
 |  |  |
@@ -106,7 +106,7 @@ Will span two lines
 | git diff     | git diff       | git diff      |
 ```
 
-## [목록 (Lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/12.%20%EB%AA%A9%EB%A1%9D%20(Lists).md) [![](</images/list icon.jpg>)](#markdown)
+## [목록 (Lists)](</1. 기본 서식 구문/12. 목록 (Lists).md>) [![](</images/list icon.jpg>)](#markdown)
 
 행 앞에 `숫자` 또는 `-`, `*`, `+`을(를) 입력
 
@@ -119,7 +119,7 @@ Will span two lines
      - Second nested list item
 ```
 
-## [작업 목록 (Task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/13.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20(Task%20lists).md) [![](</images/list icon.jpg>)](#markdown)
+## [작업 목록 (Task lists)](</1. 기본 서식 구문/13. 작업 목록 (Task lists).md>) [![](</images/list icon.jpg>)](#markdown)
 
 `- [ ] `
 
@@ -128,7 +128,7 @@ Will span two lines
 - [x] 
 ```
 
-## [작업 목록 정보 (About task lists)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/38.%20%EC%9E%91%EC%97%85%20%EB%AA%A9%EB%A1%9D%20%EC%A0%95%EB%B3%B4%20(About%20task%20lists).md) [![](</images/list icon.jpg>)](#markdown)
+## [작업 목록 정보 (About task lists)](</2. 고급 서식 지정 작업/38. 작업 목록 정보 (About task lists).md>) [![](</images/list icon.jpg>)](#markdown)
 
 > for GitHub  
 깃허브 이슈에서 작업목록 사용
@@ -137,19 +137,19 @@ Will span two lines
 <br>
 <br>
 
-## [주석이 있는 콘텐츠 숨기기 (Hiding content with comments)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/22.%20%EC%A3%BC%EC%84%9D%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EC%BD%98%ED%85%90%EC%B8%A0%20%EC%88%A8%EA%B8%B0%EA%B8%B0%20(Hiding%20content%20with%20comments).md) [![](</images/list icon.jpg>)](#markdown)
+## [주석이 있는 콘텐츠 숨기기 (Hiding content with comments)](</1. 기본 서식 구문/22. 주석이 있는 콘텐츠 숨기기 (Hiding content with comments).md>) [![](</images/list icon.jpg>)](#markdown)
 
 ```markdown
 <!--  -->
 ```
 
-## [텍스트 인용 (Quoting text)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/03.%20%ED%85%8D%EC%8A%A4%ED%8A%B8%20%EC%9D%B8%EC%9A%A9%20(Quoting%20text).md) [![](</images/list icon.jpg>)](#markdown)
+## [텍스트 인용 (Quoting text)](</1. 기본 서식 구문/03. 텍스트 인용 (Quoting text).md>) [![](</images/list icon.jpg>)](#markdown)
 
 ```markdown
 > 
 ```
 
-## [코드 인용 (Quoting code) & 코드 블록 (Code Block)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/04.%20%EC%9D%B8%EC%9A%A9%20%EC%BD%94%EB%93%9C%20(Quoting%20code).md) [![](</images/list icon.jpg>)](#markdown)
+## [코드 인용 (Quoting code) & 코드 블록 (Code Block)](</1. 기본 서식 구문/03. 텍스트 인용 (Quoting text).md>) [![](</images/list icon.jpg>)](#markdown)
 
 [코드 블록](</2. 고급 서식 지정 작업/33. 코드 블록 만들기 및 강조 표시 (Creating and highlighting code blocks).md>)
 
@@ -163,7 +163,7 @@ text
 ```
 ````
 
-## [축소된 섹션을 사용하여 정보 구성 (Organizing information with collapsed sections)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/32.%20%EC%B6%95%EC%86%8C%EB%90%9C%20%EC%84%B9%EC%85%98%20(Organizing%20information%20with%20collapsed%20sections).md) [![](</images/list icon.jpg>)](#markdown)
+## [축소된 섹션을 사용하여 정보 구성 (Organizing information with collapsed sections)](</2. 고급 서식 지정 작업/32. 축소된 섹션 (Organizing information with collapsed sections).md>) [![](</images/list icon.jpg>)](#markdown)
 
 ````markdown
 <details open>
@@ -172,7 +172,7 @@ text
 </details>
 ````
 
-## [경고 (Alerts)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/21.%20%EA%B2%BD%EA%B3%A0%20(Alerts).md) [![](</images/list icon.jpg>)](#markdown)
+  ## [경고 (Alerts)](</2. 고급 서식 지정 작업/34. 경고 (Alerts).md>) [![](</images/list icon.jpg>)](#markdown)
 
 > for GitHub  
 
