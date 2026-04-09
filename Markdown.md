@@ -172,7 +172,7 @@ text
 </details>
 ````
 
-  ## [경고 (Alerts)](</2. 고급 서식 지정 작업/34. 경고 (Alerts).md>) [![](</images/list icon.jpg>)](#markdown)
+  ## [경고 (Alerts)](</1. 기본 서식 구문/21. 경고 (Alerts).md>) [![](</images/list icon.jpg>)](#markdown)
 
 > for GitHub  
 
@@ -197,7 +197,7 @@ text
 <br>
 <br>
 
-## [링크 (Links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/06.%20%EB%A7%81%ED%81%AC%20(Links).md) [![](</images/list icon.jpg>)](#markdown)
+## [링크 (Links)](</1. 기본 서식 구문/06. 링크 (Links).md>) [![](</images/list icon.jpg>)](#markdown)
 
 `[]()`
 
@@ -205,7 +205,7 @@ text
 [GitHub](https://github.com/)
 ```
 
-## [상대 링크 (Relative links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/08.%20%EC%83%81%EB%8C%80%20%EB%A7%81%ED%81%AC%20(Relative%20links).md) [![](</images/list icon.jpg>)](#markdown)
+## [상대 링크 (Relative links)](</1. 기본 서식 구문/08. 상대 링크 (Relative links).md>) [![](</images/list icon.jpg>)](#markdown)
 
 동일 레포지토리 내의 다른 파일로 연결
 
@@ -213,7 +213,7 @@ text
 [Contribution guidelines for this project](/docs/CONTRIBUTING.md)
 ```
 
-## [섹션 링크 (Section links)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/07.%20%EC%84%B9%EC%85%98%20%EB%A7%81%ED%81%AC%20(Section%20links).md) [![](</images/list icon.jpg>)](#markdown)
+## [섹션 링크 (Section links)](</1. 기본 서식 구문/07. 섹션 링크 (Section links).md>) [![](</images/list icon.jpg>)](#markdown)
 
 해당 파일 내의 섹션으로 연결
 
@@ -225,7 +225,7 @@ text
 [섹션 링크로 이동](#섹션-링크-section-links)
 ```
 
-## [사용자 지정 앵커 (Custom anchors)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/09.%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A7%80%EC%A0%95%20%EC%95%B5%EC%BB%A4%20(Custom%20anchors).md) [![](</images/list icon.jpg>)](#markdown)
+## [사용자 지정 앵커 (Custom anchors)](</1. 기본 서식 구문/09. 사용자 지정 앵커 (Custom anchors).md>) [![](</images/list icon.jpg>)](#markdown)
 
 섹션을 가리키는 사용자 지정 앵커 만들기
 
@@ -241,7 +241,7 @@ text
 <br>
 <br>
 
-## [이미지 (Images)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/11.%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20(Images).md) [![](</images/list icon.jpg>)](#markdown)
+## [이미지 (Images)](</1. 기본 서식 구문/11. 이미지 (Images).md>) [![](</images/list icon.jpg>)](#markdown)
 
 `![]()`
 
@@ -253,8 +253,8 @@ text
 <br>
 <br>
 
-## [수학 식 작성 (Writing mathematical expressions)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/35.%20%EC%88%98%ED%95%99%20%EC%8B%9D%20(Writing%20mathematical%20expressions).md) [![](</images/list icon.jpg>)](#markdown)
-
+## [수학 식 작성 (Writing mathematical expressions)](</2. 고급 서식 지정 작업/35. 수학 식 (Writing mathematical expressions).md>) [![](</images/list icon.jpg>)](#markdown)
+[text](<2. 고급 서식 지정 작업/35. 수학 식 (Writing mathematical expressions).md>)
 <code>$\`</code>
 
 ```markdown
@@ -263,13 +263,13 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
 
-## [다이어그램 만들기 (Creating diagrams)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/2.%20%EA%B3%A0%EA%B8%89%20%EC%84%9C%EC%8B%9D%20%EC%A7%80%EC%A0%95%20%EC%9E%91%EC%97%85/34.%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20(Creating%20diagrams).md) [![](</images/list icon.jpg>)](#markdown)
+## [다이어그램 만들기 (Creating diagrams)](</2. 고급 서식 지정 작업/34. 다이어그램 만들기 (Creating diagrams).md>) [![](</images/list icon.jpg>)](#markdown)
 
 <br>
 <br>
 <br>
 
-## [이모지 (emojis)](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/1.%20%EA%B8%B0%EB%B3%B8%20%EC%84%9C%EC%8B%9D%20%EA%B5%AC%EB%AC%B8/18.%20%EC%9D%B4%EB%AA%A8%EC%A7%80%20%EC%82%AC%EC%9A%A9%20(Using%20emojis).md) [![](</images/list icon.jpg>)](#markdown)
+## [이모지 (emojis)](</1. 기본 서식 구문/18. 이모지 사용 (Using emojis).md>) [![](</images/list icon.jpg>)](#markdown)
 
 - [Get Emoji](https://getemoji.com/)
 
