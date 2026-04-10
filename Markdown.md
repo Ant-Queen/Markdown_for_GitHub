@@ -254,7 +254,7 @@ text
 <br>
 
 ## [수학 식 작성 (Writing mathematical expressions)](</2. 고급 서식 지정 작업/35. 수학 식 (Writing mathematical expressions).md>) [![](</images/list icon.jpg>)](#markdown)
-[text](<2. 고급 서식 지정 작업/35. 수학 식 (Writing mathematical expressions).md>)
+
 <code>$\`</code>
 
 ```markdown

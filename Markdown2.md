@@ -18,33 +18,14 @@
 | 단락 | (빈 줄) | 텍스트 줄 사이에 빈 줄을 둠 |
 | 수평선 | `***`, `___`, `---` |  |
 | 공백문자 | ` ` or `&nbsp;` |  |
-
-테이블
-
-```markdown
-|  |  |
-|---|---|
-|  |  |
-|  |  |
-
-| :---     |   :---:   |     ---: |
-```
-
-목록
-
-```markdown
- 1. 
-   - 
-     * 
-       + 
- 2. 
-```
-
-|  |  |  |
-|---|---|---|
-| 작업 목록 | `- [ ] ` <br> `- [x] ` | ex) 깃허브 이슈에서 활용하기 좋음 |
+| 테이블 |\| &nbsp;\| &nbsp;\|<br>\|---\|---\|<br>\| &nbsp;\| &nbsp;\|<br>\| &nbsp;\| &nbsp;\|<br> | \| :--- &nbsp;&nbsp;&nbsp; \| &nbsp; :---: &nbsp; \| &nbsp;&nbsp;&nbsp; ---: \| |
+| 목록 |1.&nbsp;<br> &nbsp;&nbsp; -&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +&nbsp;<br>2.&nbsp;<br> |  |
+| 작업 목록 | `- [ ] ` <br> `- [x] `&nbsp;| ex) 깃허브 이슈에서 활용하기 좋음 |
 | 주석 숨김 | `<!--  -->` |  |
 | 텍스트 인용 | `>` |  |
+| 코드 인용 | ``` `` ``` |  |
+| 코드 블록 | ```` ```markdown ````<br>```bash```python```
+```` |  |
 
 코드 인용 # 코드 블록
 
@@ -52,6 +33,8 @@
 ``
 ````
 
+``` `` ```
+``
 ````markdown <!-- 코드 블록 -->
 ```markdown
 ```bash
@@ -59,6 +42,9 @@
 
 ```
 ````
+
+- [ ] 
+- [x]  
 
 섹션 축소
 ````markdown
@@ -86,6 +72,8 @@
 > Advises about risks or negative outcomes of certain actions.
 ```
 
+
+
 |  |  |  |
 |---|---|---|
 | 링크 | `[텍스트](주소)` |  |
@@ -93,38 +81,9 @@
 | 섹션 링크 | `[텍스트](#앵커-이름)` | 해당 파일 내의 특정 섹션으로 연결 |
 | 사용자 지정 앵커 | `<a id="my-custom-anchor-point"></a>` |  |
 | 이미지 | `![대체 텍스트](경로)` |  |
-
-## [이미지 (Images)](</1. 기본 서식 구문/11. 이미지 (Images).md>) [![](</images/list icon.jpg>)](#markdown)
-
-`![]()`
-
-```markdown
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)`
-```
-
-<br>
-<br>
-<br>
-
-## [수학 식 작성 (Writing mathematical expressions)](</2. 고급 서식 지정 작업/35. 수학 식 (Writing mathematical expressions).md>) [![](</images/list icon.jpg>)](#markdown)
-[text](<2. 고급 서식 지정 작업/35. 수학 식 (Writing mathematical expressions).md>)
-<code>$\`</code>
-
-```markdown
-This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
-```
-
-This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
-
-## [다이어그램 만들기 (Creating diagrams)](</2. 고급 서식 지정 작업/34. 다이어그램 만들기 (Creating diagrams).md>) [![](</images/list icon.jpg>)](#markdown)
-
-<br>
-<br>
-<br>
-
-## [이모지 (emojis)](</1. 기본 서식 구문/18. 이모지 사용 (Using emojis).md>) [![](</images/list icon.jpg>)](#markdown)
-
-- [Get Emoji](https://getemoji.com/)
+| 수학 식 | <code>$\`</code> | $`\sqrt{3x-1}+(1+x)^2`$ |
+| 다이어그램 |  |  |
+| 이모지 | [Get Emoji](https://getemoji.com/) |  |
 
 <big><big>
 
@@ -166,8 +125,3 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 - 🖱️ Drag and Drop
 - 🖱️ Scroll
 - 🖱️ Hover (호버) <!-- 버튼을 누르지 않고 커서를 올려놓기 -->
-
-|  |  |
-|---|---|
-|  |  |
-|  |  |
