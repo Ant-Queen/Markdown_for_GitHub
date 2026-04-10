@@ -18,31 +18,16 @@
 | 공백문자 | ` ` or `&nbsp;` |  |
 | 테이블 |\| &nbsp;\| &nbsp;\|<br>\|---\|---\|<br>\| &nbsp;\| &nbsp;\|<br>\| &nbsp;\| &nbsp;\|<br> | \| :--- &nbsp;&nbsp;&nbsp; \| &nbsp; :---: &nbsp; \| &nbsp;&nbsp;&nbsp; ---: \| |
 | 목록 |1.&nbsp;<br> &nbsp;&nbsp; -&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +&nbsp;<br>2.&nbsp;<br> |  |
-| 작업 목록 | `- [ ] ` <br> `- [x] `&nbsp;| ex) 깃허브 이슈에서 활용하기 좋음 |
+| 작업 목록 |`- [ ] ` <br> `- [x] ` | ex) 깃허브 이슈에서 활용하기 좋음 |
 | 주석 숨김 | `<!--  -->` |  |
 | 텍스트 인용 | `>` |  |
 | 코드 인용 | ``` `` ``` |  |
-| 코드 블록 | ```` ```markdown ````<br>```bash```python```
-```` |  |
+| 코드 블록  | <code>```언어<br>코드<br>```</code> | 여러 줄 코드, 언어 지정 가능 (`bash`, `python` 등) |
+| 코드 블록 | \```markdown<br><br>\``` | python, bash |
+| 섹션 축소 |  |  |
 
-코드 인용 # 코드 블록
-
-````markdown <!-- 코드 인용 -->
-``
-````
-
-``` `` ```
-``
-````markdown <!-- 코드 블록 -->
-```markdown
-```bash
-```python
-
-```
-````
-
-- [ ] 
-- [x]  
+- [ ] ㄴㄴ
+- [x] ㄴㄴ
 
 섹션 축소
 ````markdown
