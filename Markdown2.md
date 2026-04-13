@@ -16,8 +16,8 @@
 | 단락 | (빈 줄) | 텍스트 줄 사이에 빈 줄을 둠 |
 | 수평선 | `***`, `___`, `---` |  |
 | 공백문자 | ` ` or `&nbsp;` |  |
-| 테이블 |\| &nbsp;\| &nbsp;\|<br>\|---\|---\|<br>\| &nbsp;\| &nbsp;\|<br>\| &nbsp;\| &nbsp;\|<br> | \| :--- &nbsp;&nbsp;&nbsp; \| &nbsp; :---: &nbsp; \| &nbsp;&nbsp;&nbsp; ---: \| |
-| 목록 |1.&nbsp;<br> &nbsp;&nbsp; -&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +&nbsp;<br>2.&nbsp;<br> |  |
+| 테이블 |\|  \|  \|<br>\|---\|---\|<br>\|  \|  \|<br> | \| :---     \|   :---:   \|     ---: \| |
+| 목록 |1.&nbsp;<br> &nbsp;&nbsp; -&nbsp;<br> | *, + |
 | 작업 목록 |`- [ ] ` <br> `- [x] ` | ex) 깃허브 이슈에서 활용하기 좋음 |
 | 주석 숨김 | `<!--  -->` |  |
 | 텍스트 인용 | `>` |  |
@@ -25,9 +25,6 @@
 | 코드 블록  | <code>```언어<br>코드<br>```</code> | 여러 줄 코드, 언어 지정 가능 (`bash`, `python` 등) |
 | 코드 블록 | \```markdown<br><br>\``` | python, bash |
 | 섹션 축소 |  |  |
-
-- [ ] ㄴㄴ
-- [x] ㄴㄴ
 
 섹션 축소
 ````markdown
@@ -55,7 +52,11 @@
 > Advises about risks or negative outcomes of certain actions.
 ```
 
-
+1. 
+   - 
+     * 
+       + 
+2. 
 
 |  |  |  |
 |---|---|---|
