@@ -24,15 +24,8 @@
 | 코드 인용 | ``` `` ``` |  |
 | 코드 블록  | <code>```언어<br>코드<br>```</code> | 여러 줄 코드, 언어 지정 가능 (`bash`, `python` 등) |
 | 코드 블록 | \```markdown<br><br>\``` | python, bash |
-| 섹션 축소 |  |  |
-
-섹션 축소
-````markdown
-<details open>
-<summary>Tips for collapsed sections</summary>
-
-</details>
-````
+| 섹션 축소 | \<details><br>\<summary>\</summary><br><br>\</details> | 선택 \<details open><br>선택 \<summary>Tips for collapsed sections\</summary> |
+| 경고 |  | > [!NOTE]<br>> Useful information that users should know, even when skimming content. |
 
 경고
 ```markdown
