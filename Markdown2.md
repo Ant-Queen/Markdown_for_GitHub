@@ -24,7 +24,7 @@
 | [코드 인용](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block) | ``` `` ``` | |
 | [코드 블록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block)  | <code>```언어<br>코드<br>```</code> | 여러 줄 코드, 언어 지정 가능 (`bash`, `python` 등) |
 | [코드 블록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block) | \```markdown<br><br>\``` | python, bash |
-| [코드 블록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block) | <code>\```markdown<br><br>\```</code> | python, bash |
+| [코드 블록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block) | <code>\```markdown<br> <br>\```</code> | python, bash |
 | [섹션 축소](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) | \<details><br>\<summary>\</summary><br><br>\</details> | 선택 \<details open><br>선택 \<summary>Tips for collapsed sections\</summary> |
 | [강조 메세지](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#강조-메세지-alerts) | > [!NOTE]<br>>&nbsp; | [!NOTE]&#9; ,  [!TIP] ,  [!IMPORTANT] ,  [!WARNING] ,  [!CAUTION]<br>참고,&#9; 팁, 중요, 경고, 주의 |
 | [링크](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#링크-links) | `[텍스트](주소)` | |
