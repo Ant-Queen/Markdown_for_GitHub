@@ -172,25 +172,25 @@ text
 </details>
 ````
 
-  ## [경고 (Alerts)](</1. 기본 서식 구문/21. 경고 (Alerts).md>) [![](</images/list icon.jpg>)](#markdown)
+  ## [강조 메세지 (Alerts)](</1. 기본 서식 구문/21. 강조 메세지 (Alerts).md>) [![](</images/list icon.jpg>)](#markdown)
 
 > for GitHub  
 
 ```markdown
 > [!NOTE]  
-> Useful information that users should know, even when skimming content.
+> 참고: 추가적인 설명이나 주석을 나타냅니다.
 
 > [!TIP]  
-> Helpful advice for doing things better or more easily.
+> 팁: 유용한 힌트나 권장 사항을 제공합니다.
 
 > [!IMPORTANT]  
-> Key information users need to know to achieve their goal.
+> 중요: 반드시 알아야 할 핵심 정보를 강조합니다.
 
 > [!WARNING]  
-> Urgent info that needs immediate user attention to avoid problems.
+> 경고: 잠재적인 문제나 위험 요소를 알립니다.
 
 > [!CAUTION]  
-> Advises about risks or negative outcomes of certain actions.
+> 주의: 조심해야 할 상황이나 조건을 안내합니다.
 ```
 
 <br>
