@@ -1,4 +1,4 @@
-# [Markdown 서식 요약](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
+# [Markdown 서식 요약](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown%20%EC%9A%94%EC%95%BD.md)
 
 | [스타일](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#텍스트-스타일-지정-styling-text) | 구문 | 예시 |
 | --- | --- | --- |
@@ -23,7 +23,7 @@
 | [코드 인용](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block) | ``` `` ``` | |
 | [코드 블록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block) | \```markdown<br><br>\``` | python, bash |
 | [섹션 축소](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) | \<details><br>\<summary>\</summary><br><br>\</details> | 선택 \<details open><br>선택 \<summary>축소된 섹션 제목\</summary> |
-| [강조 메세지](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#강조-메세지-alerts) | > [!NOTE]<br>>&nbsp; | [!NOTE] , [!TIP] , [!IMPORTANT] , [!WARNING] , [!CAUTION]<br>  참고      팁           중요              경고             주의 |
+| [강조 메세지](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#강조-메세지-alerts) | > [!NOTE]<br>>&nbsp; | [!NOTE] , [!TIP] , [!IMPORTANT] , [!WARNING] , [!CAUTION]<br>  참고       팁           중요              경고             주의 |
 | [링크](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#링크-links) | `[텍스트](주소)` | |
 | [상대 링크](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#상대-링크-relative-links) | `[텍스트](/경로/파일명)` | 동일 레포지토리 내의 다른 파일로 연결 |
 | [섹션 링크](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#섹션-링크-section-links) | `[텍스트](#앵커-이름)` | 해당 파일 내의 특정 섹션으로 연결 |
