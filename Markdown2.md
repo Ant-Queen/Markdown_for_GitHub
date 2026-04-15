@@ -1,6 +1,6 @@
 # [Markdown 서식 요약](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md)
 
-| 스타일 | 구문 | 예시 |
+| [스타일](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#텍스트-스타일-지정-styling-text) | 구문 | 예시 |
 | --- | --- | --- |
 | _기울임꼴_ | `_ _` (or `* *`) | `_기울임꼴_` |
 | **굵은글씨** | `** **` (or `__ __`) | `**굵은글씨**` |
@@ -19,25 +19,25 @@
 | [테이블](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#테이블로-구성-정보-organizing-information-with-tables) | \|  \|  \|<br>\|---\|---\|<br>\|  \|  \|<br> | \| :---     \|   :---:   \|     ---: \| |
 | [목록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#목록-lists) |1.&nbsp;<br> &nbsp;&nbsp; -&nbsp;<br> | *, + |
 | [작업 목록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#작업-목록-task-lists) | `- [ ] ` <br> `- [x] ` | ex) 깃허브 이슈에서 활용하기 좋음 |
+| | | |
 | [주석 숨김](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#주석이-있는-콘텐츠-숨기기-hiding-content-with-comments) | `<!--  -->` | |
 | [텍스트 인용](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#텍스트-인용-quoting-text) | `>` | |
 | [코드 인용](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block) | ``` `` ``` | |
 | [코드 블록](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#코드-인용-quoting-code--코드-블록-code-block) | \```markdown<br><br>\``` | python, bash |
-| [섹션 축소](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) | \<details><br>\<summary>\</summary><br><br>\</details> | 선택 \<details open><br>선택 \<summary>Tips for collapsed sections\</summary> |
-| [강조 메세지](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#강조-메세지-alerts) | > [!NOTE]<br>>&nbsp; | [!NOTE]&#9; ,  [!TIP] ,  [!IMPORTANT] ,  [!WARNING] ,  [!CAUTION]<br>참고,&#9; 팁, 중요, 경고, 주의 |
+| [섹션 축소](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#축소된-섹션을-사용하여-정보-구성-organizing-information-with-collapsed-sections) | \<details><br>\<summary>\</summary><br><br>\</details> | 선택 \<details open><br>선택 \<summary>축소된 섹션 제목\</summary> |
+| [강조 메세지](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#강조-메세지-alerts) | > [!NOTE]<br>>&nbsp; | [!NOTE] , [!TIP] , [!IMPORTANT] , [!WARNING] , [!CAUTION]<br>참고     , 팁     , 중요             , 경고            , 주의 |
+| | | |
 | [링크](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#링크-links) | `[텍스트](주소)` | |
 | [상대 링크](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#상대-링크-relative-links) | `[텍스트](/경로/파일명)` | 동일 레포지토리 내의 다른 파일로 연결 |
 | [섹션 링크](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#섹션-링크-section-links) | `[텍스트](#앵커-이름)` | 해당 파일 내의 특정 섹션으로 연결 |
-| [사용자 지정 앵커](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#사용자-지정-앵커-custom-anchors) | `<a id="my-custom-anchor-point"></a>` | |
+| [사용자 지정 앵커](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#사용자-지정-앵커-custom-anchors) | `<a id="custom-point"></a>` | |
+| | | |
 | [이미지](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#이미지-images) | `![대체 텍스트](경로)` | |
+| | | |
 | [수학 식](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#수학-식-작성-writing-mathematical-expressions) | <code>$\`</code> | $`\sqrt{3x-1}+(1+x)^2`$ |
 | [다이어그램](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#다이어그램-만들기-creating-diagrams) | | |
+| | | |
 | [이모지](https://github.com/Ant-Queen/Markdown_for_GitHub/blob/main/Markdown.md#이모지-emojis) | [Get Emoji](https://getemoji.com/) | |
-
-<details>
-<summary></summary>
-
-</details>
 
 <tap>ㅇㄹㅇㄹㅇ
 > [!NOTE]  
@@ -50,11 +50,15 @@
 > 중요: 반드시 알아야 할 핵심 정보를 강조합니다.
 
 > [!WARNING]  
+
 > 경고: 잠재적인 문제나 위험 요소를 알립니다.
 
 > [!CAUTION]  
 > 주의: 조심해야 할 상황이나 조건을 안내합니다.
-
+<details>
+<summary>ㅇㅇ</summary>
+ㅇㅇㅇㅇㅇㅇㅇ
+</details>
 <big><big>
 
 ☰️⚙️🎨📁🖱️⌨️
