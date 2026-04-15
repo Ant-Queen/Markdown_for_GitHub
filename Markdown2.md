@@ -25,34 +25,7 @@
 | 코드 블록  | <code>```언어<br>코드<br>```</code> | 여러 줄 코드, 언어 지정 가능 (`bash`, `python` 등) |
 | 코드 블록 | \```markdown<br><br>\``` | python, bash |
 | 섹션 축소 | \<details><br>\<summary>\</summary><br><br>\</details> | 선택 \<details open><br>선택 \<summary>Tips for collapsed sections\</summary> |
-| 경고 |  | > [!NOTE]<br>> Useful information that users should know, even when skimming content. |
-
-경고
-```markdown
-> [!NOTE]  
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]  
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]  
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]  
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]  
-> Advises about risks or negative outcomes of certain actions.
-```
-
-1. 
-   - 
-     * 
-       + 
-2. 
-
-|  |  |  |
-|---|---|---|
+| 경고 | > [!NOTE]<br>>&nbsp; | [!NOTE] ,  [!TIP] ,  [!IMPORTANT] ,  [!WARNING] ,  [!CAUTION] |
 | 링크 | `[텍스트](주소)` |  |
 | 상대 링크 | `[텍스트](/경로/파일명)` | 동일 레포지토리 내의 다른 파일로 연결 |
 | 섹션 링크 | `[텍스트](#앵커-이름)` | 해당 파일 내의 특정 섹션으로 연결 |
