@@ -277,7 +277,7 @@ This sentence uses <code>$\`</code> and <code>\`$</code> delimiters to show math
 
 ☰️⚙️🎨📁🖱️⌨️
 
-⭕️❌❓❔❗️❕️‼️⁉️✔️☑️✅❎
+⭕️❌❓❔❗️❕️‼️⁉️✔️☑️✅❎⏸️
 
 💠🔺🔻🔸🔹🔶🔷♦️🔴🟠🟡🟢🔵🟣🟤⚫️⚪️🟥🟧🟨🟩🟦🟪🟫⬛️⬜️
 
